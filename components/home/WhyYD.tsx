@@ -23,8 +23,8 @@ export default function WhyYD() {
       className="relative overflow-hidden bg-yd-black section-padding py-section lg:py-section-lg border-b border-yd-graphite-border"
     >
       <VideoBackground
-        src="https://assets.mixkit.co/videos/2571/2571-720.mp4"
-        overlayOpacity={80}
+        src="https://assets.mixkit.co/videos/13218/13218-720.mp4"
+        overlayOpacity={62}
       />
 
       <div className="container-wide relative z-10">
