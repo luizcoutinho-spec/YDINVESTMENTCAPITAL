@@ -3,6 +3,8 @@
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 
+const WEB3FORMS_KEY = "6a71b5cd-7cfe-4ee7-835c-dd784a91e165";
+
 export default function ContactPage() {
   const t = useTranslations("contact");
   const [submitted, setSubmitted] = useState(false);
@@ -17,20 +19,24 @@ export default function ContactPage() {
     const data = new FormData(e.currentTarget);
 
     try {
-      const res = await fetch("/api/contact", {
+      const res = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
+          access_key: WEB3FORMS_KEY,
           name: data.get("name"),
           company: data.get("company"),
           email: data.get("email"),
           phone: data.get("phone"),
-          subject: data.get("subject"),
+          subject: data.get("subject") || `Nova mensagem de ${data.get("name")}`,
           message: data.get("message"),
+          from_name: "YD Investment Capital",
         }),
       });
 
-      if (res.ok) {
+      const json = await res.json();
+
+      if (json.success) {
         setSubmitted(true);
       } else {
         setError(true);
