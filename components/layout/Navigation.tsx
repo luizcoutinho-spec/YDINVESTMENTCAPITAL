@@ -72,16 +72,13 @@ export default function Navigation() {
             {/* Logo */}
             <Link
               href={`/${locale}`}
-              className="flex items-center gap-3 group"
+              className="flex items-center group"
             >
-              <div className="flex flex-col leading-none">
-                <span className="font-display text-xl tracking-[-0.01em] text-yd-off-white">
-                  YD
-                </span>
-                <span className="text-[0.6rem] tracking-[0.2em] uppercase text-yd-gray-soft font-sans font-medium mt-0.5">
-                  Investment Capital
-                </span>
-              </div>
+              <span className="font-sans text-[1.05rem] tracking-[-0.01em] text-yd-off-white leading-none whitespace-nowrap">
+                <span className="font-bold">YD</span>
+                <span className="font-light text-yd-gray-soft mx-2">|</span>
+                <span className="font-light">Investment Capital</span>
+              </span>
             </Link>
 
             {/* Desktop Nav */}

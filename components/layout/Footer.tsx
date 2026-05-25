@@ -27,14 +27,11 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link href={`/${locale}`} className="inline-block mb-5">
-              <div className="flex flex-col leading-none">
-                <span className="font-display text-2xl text-yd-off-white tracking-[-0.01em]">
-                  YD
-                </span>
-                <span className="text-[0.6rem] tracking-[0.2em] uppercase text-yd-gray-soft font-sans font-medium mt-0.5">
-                  Investment Capital
-                </span>
-              </div>
+              <span className="font-sans text-[1.05rem] tracking-[-0.01em] text-yd-off-white leading-none whitespace-nowrap">
+                <span className="font-bold">YD</span>
+                <span className="font-light text-yd-gray-soft mx-2">|</span>
+                <span className="font-light">Investment Capital</span>
+              </span>
             </Link>
             <p className="text-body-sm text-yd-gray-soft leading-relaxed max-w-[260px]">
               {t("description")}
