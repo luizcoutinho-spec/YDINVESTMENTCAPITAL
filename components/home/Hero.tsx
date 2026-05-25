@@ -25,8 +25,8 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen flex flex-col justify-end pb-20 md:pb-28 overflow-hidden bg-yd-black">
       <VideoBackground
-        src="https://assets.mixkit.co/videos/7194/7194-720.mp4"
-        overlayOpacity={65}
+        src="https://assets.mixkit.co/videos/36833/36833-720.mp4"
+        overlayOpacity={68}
       />
 
       {/* Background grid */}
