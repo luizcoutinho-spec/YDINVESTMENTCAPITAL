@@ -43,7 +43,6 @@ export default function WhyYD() {
                 {[
                   { value: t("stat1Value"), label: t("stat1Label") },
                   { value: t("stat2Value"), label: t("stat2Label") },
-                  { value: t("stat3Value"), label: t("stat3Label") },
                 ].map((stat, i) => (
                   <div key={i}>
                     <p className="font-display text-3xl text-yd-off-white mb-1">
