@@ -1,0 +1,521 @@
+{
+  "meta": {
+    "siteName": "YD Investment Capital",
+    "siteDescription": "Strategic finance, capital intelligence, and operational advisory for companies navigating scale, complexity, and expansion."
+  },
+  "nav": {
+    "strategicFinance": "Strategic Finance",
+    "investmentCapital": "Investment Capital",
+    "industries": "Industries",
+    "portfolio": "Portfolio",
+    "insights": "Insights",
+    "about": "About",
+    "contact": "Contact",
+    "scheduleAssessment": "Schedule Assessment",
+    "clientPortal": "Client Portal"
+  },
+  "hero": {
+    "eyebrow": "Growth & Capital Intelligence",
+    "headline": "Building Growth-Ready Companies.",
+    "subheadline": "Strategic finance, capital intelligence, and operational advisory for companies navigating scale, complexity, and expansion.",
+    "ctaPrimary": "Schedule Executive Assessment",
+    "ctaSecondary": "Explore Strategic Finance",
+    "scrollLabel": "Scroll to explore"
+  },
+  "positioningBar": {
+    "items": [
+      "Strategic Finance",
+      "Growth Advisory",
+      "Capital Intelligence",
+      "Investment Readiness",
+      "Operational Architecture",
+      "Executive Advisory"
+    ]
+  },
+  "strategicFinance": {
+    "eyebrow": "Strategic Finance",
+    "headline": "Financial Clarity for Scalable Growth.",
+    "subheadline": "We engineer the financial architecture that allows companies to grow with precision, discipline, and institutional-grade clarity.",
+    "cards": [
+      {
+        "title": "Financial Architecture",
+        "description": "Building the structural foundation for financial performance and scalable decision-making.",
+        "items": ["Financial Forecasting", "Margin Optimization", "Cash Flow Intelligence", "Unit Economics"]
+      },
+      {
+        "title": "Strategic Growth Finance",
+        "description": "Aligning financial strategy with growth objectives to unlock compounding operational leverage.",
+        "items": ["Pricing Strategy", "Expansion Planning", "Capital Allocation", "Executive Decision Support"]
+      },
+      {
+        "title": "Capital Readiness",
+        "description": "Preparing your company for institutional capital, governance, and investment-grade reporting.",
+        "items": ["Investor Readiness", "Governance Frameworks", "Reporting Infrastructure", "Growth Structuring"]
+      }
+    ],
+    "cta": "Explore Strategic Finance"
+  },
+  "whyYD": {
+    "eyebrow": "Our Philosophy",
+    "headline": "Investor Mindset. Operator Precision.",
+    "body": "YD Investment Capital was built at the intersection of two disciplines that rarely coexist — the analytical rigor of institutional investment and the operational intelligence of company-building. We don't advise from the outside. We think like principals.",
+    "pillars": [
+      {
+        "title": "Strategic Finance",
+        "description": "We architect financial systems that give leadership teams full visibility into performance, risk, and growth trajectory."
+      },
+      {
+        "title": "Operational Intelligence",
+        "description": "We identify the structural inefficiencies that silently erode margins and build operating systems that scale without chaos."
+      },
+      {
+        "title": "Investment Analysis",
+        "description": "Every engagement is evaluated through an investment lens — capital efficiency, return dynamics, and long-term value creation."
+      },
+      {
+        "title": "Capital Structuring",
+        "description": "We prepare and position companies for capital events — from Series A readiness to strategic M&A and private equity transactions."
+      },
+      {
+        "title": "Growth Architecture",
+        "description": "We design the systems, processes, and strategic frameworks that allow businesses to scale with structure, not despite it."
+      }
+    ],
+    "stat1Value": "2014",
+    "stat1Label": "Founded",
+    "stat2Value": "40+",
+    "stat2Label": "Portfolio Companies",
+    "stat3Value": "3",
+    "stat3Label": "Continents"
+  },
+  "founderIntelligence": {
+    "eyebrow": "Founder Intelligence",
+    "headline": "What Most Companies Learn Too Late.",
+    "insights": [
+      {
+        "quote": "Revenue growth does not guarantee cash generation.",
+        "detail": "The fastest-growing companies often have the worst cash positions. Growth consumes capital — and without a financial architecture to manage that dynamic, scale becomes a liability."
+      },
+      {
+        "quote": "Operational chaos scales faster than structure.",
+        "detail": "In the early stages, chaos is acceptable. At scale, it becomes catastrophic. The companies that survive growth are those that build operating systems before they need them."
+      },
+      {
+        "quote": "Expansion without capital architecture compresses margins.",
+        "detail": "Geographic and product expansion is a capital allocation decision disguised as a strategy decision. Without a capital framework, every expansion destroys unit economics."
+      },
+      {
+        "quote": "Most companies track revenue but ignore efficiency.",
+        "detail": "Revenue is vanity. Margin is sanity. Cash is reality. We help leadership teams see all three — simultaneously, in real time, with institutional precision."
+      }
+    ]
+  },
+  "portfolio": {
+    "eyebrow": "Portfolio",
+    "headline": "Companies We've Built Alongside.",
+    "subheadline": "We partner with exceptional operators at inflection points — providing the strategic finance, capital intelligence, and growth architecture that transforms potential into institutional performance.",
+    "cta": "View Full Portfolio",
+    "companies": [
+      {
+        "name": "TechCore Africa",
+        "sector": "Technology & SaaS",
+        "region": "West Africa",
+        "description": "Enterprise SaaS platform enabling digital transformation for mid-market African companies.",
+        "outcome": "3.2x revenue growth in 24 months post-engagement"
+      },
+      {
+        "name": "Meridian Health",
+        "sector": "Healthcare",
+        "region": "Brazil",
+        "description": "Integrated healthcare services company operating across multiple Brazilian states.",
+        "outcome": "Successfully structured Series B capital raise of R$45M"
+      },
+      {
+        "name": "Pacific Industrial",
+        "sector": "Industrial Operations",
+        "region": "South America",
+        "description": "Industrial manufacturing group optimizing operations across 4 production facilities.",
+        "outcome": "28% margin improvement through operational restructuring"
+      },
+      {
+        "name": "Vertex Commerce",
+        "sector": "E-commerce",
+        "region": "Latin America",
+        "description": "Multi-channel e-commerce platform with operations in 6 Latin American markets.",
+        "outcome": "Capital efficiency improved 40% through unit economics redesign"
+      }
+    ]
+  },
+  "industries": {
+    "eyebrow": "Industries",
+    "headline": "Where We Deploy Capital and Strategy.",
+    "sectors": [
+      {
+        "name": "Technology & SaaS",
+        "description": "Software-driven businesses at the intersection of scalability and capital efficiency."
+      },
+      {
+        "name": "Healthcare",
+        "description": "Healthcare services and technology companies navigating regulatory complexity and expansion."
+      },
+      {
+        "name": "Professional Services",
+        "description": "Knowledge-intensive service firms building scalable operating models and talent systems."
+      },
+      {
+        "name": "Industrial Operations",
+        "description": "Manufacturing and industrial companies optimizing operations and margin architecture."
+      },
+      {
+        "name": "E-commerce",
+        "description": "Digital commerce businesses engineering unit economics for sustainable growth."
+      },
+      {
+        "name": "Family-Owned Businesses",
+        "description": "Multi-generational businesses professionalizing governance, finance, and succession."
+      }
+    ]
+  },
+  "insights": {
+    "eyebrow": "Insights",
+    "headline": "Intelligence for Operators and Investors.",
+    "subheadline": "Rigorous thinking on strategic finance, operational architecture, and capital markets.",
+    "cta": "View All Insights",
+    "articles": [
+      {
+        "category": "Strategic Finance",
+        "title": "Why Growing Companies Silently Destroy Cash Flow",
+        "excerpt": "The paradox of growth capital: why the metrics that appear on investor decks often mask the financial dynamics that will eventually define a company's destiny.",
+        "readTime": "8 min read"
+      },
+      {
+        "category": "Growth Architecture",
+        "title": "Strategic Finance as a Growth Multiplier",
+        "excerpt": "Beyond accounting and reporting — how strategic finance becomes the operating system that compounds growth and protects margin at every stage of scale.",
+        "readTime": "11 min read"
+      },
+      {
+        "category": "Operational Intelligence",
+        "title": "The Hidden Cost of Operational Complexity",
+        "excerpt": "Every layer of organizational complexity carries a financial cost that rarely appears on income statements but consistently appears in declining EBITDA.",
+        "readTime": "9 min read"
+      },
+      {
+        "category": "Capital Markets",
+        "title": "Capital Discipline in Emerging Markets",
+        "excerpt": "Why the capital allocation frameworks developed in mature markets require fundamental rethinking when applied to the volatility and opportunity of emerging economies.",
+        "readTime": "12 min read"
+      }
+    ]
+  },
+  "executiveCTA": {
+    "eyebrow": "Begin",
+    "headline": "Build a company ready for scalable growth and strategic capital.",
+    "body": "The companies that compound — in value, in capability, in institutional credibility — are the ones that build the financial architecture before they need it.",
+    "cta": "Schedule Strategic Assessment",
+    "ctaSecondary": "Contact Our Team",
+    "footnote": "São Paulo · London · Johannesburg"
+  },
+  "about": {
+    "eyebrow": "About YD",
+    "headline": "A Different Kind of Capital Partner.",
+    "heroBody": "Founded in 2014, YD Investment Capital was built on a conviction: that the most impactful capital partners are those who understand both sides of the table — the operator building the company and the investor allocating the capital.",
+    "missionHeadline": "Our Mission",
+    "missionBody": "We exist to give exceptional companies the strategic finance, operational intelligence, and capital access that transforms growth potential into institutional performance. We don't just deploy capital — we build the conditions for capital to work.",
+    "philosophyHeadline": "Investor Mindset. Operator Precision.",
+    "philosophyBody": "Most advisory firms think like consultants. Most investment firms think like capital allocators. YD was designed to think like both simultaneously — bringing investment-grade analytical rigor to operational decisions and operator-level texture to investment decisions.",
+    "valuesHeadline": "What We Stand For",
+    "values": [
+      {
+        "title": "Intellectual Honesty",
+        "description": "We tell clients what they need to hear, not what they want to hear. Strategic clarity requires uncomfortable truths."
+      },
+      {
+        "title": "Long-Term Orientation",
+        "description": "We measure success in value compounding, not engagement hours. Our incentives are aligned with our clients' outcomes."
+      },
+      {
+        "title": "Operational Depth",
+        "description": "We go beyond financial models to understand the operational realities that determine whether those models are achievable."
+      },
+      {
+        "title": "Capital Discipline",
+        "description": "Every strategic recommendation is filtered through a capital efficiency lens — because capital is finite and its allocation is strategy."
+      }
+    ],
+    "presenceHeadline": "Global Presence",
+    "presenceBody": "Operating across South America, Africa, and Europe, YD brings a genuinely global perspective to growth and capital strategy.",
+    "locations": ["São Paulo, Brazil", "Johannesburg, South Africa", "London, United Kingdom"]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "headline": "Begin a Strategic Conversation.",
+    "body": "We engage selectively with companies and leadership teams for whom strategic finance and capital intelligence represent a genuine competitive advantage. If that describes you, we'd like to hear from you.",
+    "form": {
+      "nameLabel": "Full Name",
+      "namePlaceholder": "Your name",
+      "companyLabel": "Company",
+      "companyPlaceholder": "Company name",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "your@email.com",
+      "phoneLabel": "Phone",
+      "phonePlaceholder": "+1 (000) 000-0000",
+      "subjectLabel": "Subject",
+      "subjectPlaceholder": "How can we help?",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell us about your company and the challenges you're navigating...",
+      "submitButton": "Send Message",
+      "submitting": "Sending...",
+      "successTitle": "Message Received.",
+      "successBody": "Thank you for reaching out. A member of our team will be in contact within 48 hours."
+    },
+    "offices": [
+      {
+        "city": "São Paulo",
+        "country": "Brazil",
+        "address": "Rua Irmã Gabriela, 51",
+        "postal": "São Paulo/SP 04571-130"
+      }
+    ],
+    "email": "contact@ydinvestmentcapital.com",
+    "phone": "+55 (11) 9999-0000"
+  },
+  "footer": {
+    "tagline": "Growth & Capital Intelligence.",
+    "description": "Strategic finance, capital intelligence, and operational advisory for companies navigating scale, complexity, and expansion.",
+    "navigation": "Navigation",
+    "services": "Services",
+    "company": "Company",
+    "legal": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "copyright": "© {year} YD Investment Capital. All rights reserved.",
+    "services_items": [
+      "Financial Architecture",
+      "Strategic Growth Finance",
+      "Capital Readiness",
+      "Investment Advisory"
+    ]
+  },
+  "strategicFinancePage": {
+    "eyebrow": "Strategic Finance",
+    "headline": "The Financial Operating System for Scalable Growth.",
+    "heroBody": "Strategic finance is not an accounting function. It is the operating system through which companies make better decisions, allocate capital with precision, and build the structural foundations that allow growth to compound rather than consume.",
+    "servicesHeadline": "Our Capabilities",
+    "services": [
+      {
+        "title": "Financial Architecture",
+        "description": "We design and implement financial systems that give leadership teams complete visibility into performance drivers, capital consumption, and margin dynamics.",
+        "capabilities": ["Multi-scenario financial modeling", "Integrated P&L, balance sheet, and cash flow", "KPI framework design", "Management reporting systems", "Board-level financial dashboards"]
+      },
+      {
+        "title": "Cash Flow Intelligence",
+        "description": "Cash flow is the oxygen of business. We build the systems and frameworks that ensure you always know where your cash is, where it's going, and how to optimize its deployment.",
+        "capabilities": ["13-week rolling cash flow forecasts", "Working capital optimization", "Cash conversion cycle analysis", "Treasury management frameworks", "Liquidity risk management"]
+      },
+      {
+        "title": "Margin Architecture",
+        "description": "Sustainable growth requires expanding margins. We analyze and restructure cost architectures, pricing models, and operational dynamics to systematically improve profitability.",
+        "capabilities": ["Gross margin analysis and optimization", "Pricing strategy development", "Unit economics modeling", "Cost structure redesign", "EBITDA improvement programs"]
+      },
+      {
+        "title": "Capital Allocation",
+        "description": "Where you deploy capital defines your future. We build the analytical frameworks and governance processes that ensure capital allocation decisions create long-term value.",
+        "capabilities": ["Capital allocation frameworks", "Investment prioritization models", "ROI and payback analysis", "Portfolio optimization", "Strategic capital planning"]
+      }
+    ],
+    "processHeadline": "Our Engagement Model",
+    "processSteps": [
+      {
+        "step": "01",
+        "title": "Strategic Diagnostic",
+        "description": "A comprehensive assessment of your current financial architecture, identifying gaps, inefficiencies, and strategic leverage points."
+      },
+      {
+        "step": "02",
+        "title": "Architecture Design",
+        "description": "We design the financial systems, models, and governance frameworks tailored to your specific business model and growth objectives."
+      },
+      {
+        "step": "03",
+        "title": "Implementation",
+        "description": "We work alongside your team to implement the designed systems, ensuring adoption, capability transfer, and operational integration."
+      },
+      {
+        "step": "04",
+        "title": "Ongoing Intelligence",
+        "description": "Fractional CFO support, regular strategic reviews, and continuous optimization to ensure your financial architecture evolves with your business."
+      }
+    ]
+  },
+  "investmentCapitalPage": {
+    "eyebrow": "Investment Capital",
+    "headline": "Capital with Strategic Intelligence.",
+    "heroBody": "YD deploys capital alongside strategic expertise — because financial capital without operational intelligence is incomplete. We invest in companies where our presence as a partner accelerates value creation.",
+    "approachHeadline": "Our Investment Approach",
+    "approachBody": "We focus on growth-stage companies in emerging markets where strategic finance and operational expertise represent a genuine competitive advantage for our portfolio companies.",
+    "criteria": [
+      {
+        "title": "Stage",
+        "value": "Growth Stage",
+        "detail": "Companies with demonstrated product-market fit, initial revenue traction, and clear expansion pathways."
+      },
+      {
+        "title": "Geography",
+        "value": "Emerging Markets",
+        "detail": "South America, Sub-Saharan Africa, and select European markets with emerging-market dynamics."
+      },
+      {
+        "title": "Sectors",
+        "value": "Technology, Healthcare, Services",
+        "detail": "Businesses at the intersection of scalability, recurring revenue dynamics, and defensible market position."
+      },
+      {
+        "title": "Capital Range",
+        "value": "Strategic Investment",
+        "detail": "Initial capital deployment alongside operational and strategic support as co-investment partners."
+      }
+    ],
+    "valueAddHeadline": "Beyond Capital",
+    "valueAddItems": [
+      "Strategic finance architecture",
+      "C-suite advisory and board representation",
+      "Capital markets access and introductions",
+      "Operational restructuring support",
+      "Follow-on investment capacity",
+      "Cross-portfolio network access"
+    ]
+  },
+  "industriesPage": {
+    "eyebrow": "Industries",
+    "headline": "Sector Intelligence at Depth.",
+    "heroBody": "Meaningful advisory requires deep sector knowledge. We bring industry-specific frameworks, competitive intelligence, and operational expertise to every engagement.",
+    "sectors": [
+      {
+        "name": "Technology & SaaS",
+        "description": "Software and technology businesses require unique financial frameworks that capture the economics of recurring revenue, customer acquisition, and lifetime value. We bring deep SaaS metrics expertise alongside capital strategy.",
+        "focus": ["ARR/MRR optimization", "CAC/LTV framework design", "Churn analysis and reduction", "SaaS capital efficiency"]
+      },
+      {
+        "name": "Healthcare",
+        "description": "Healthcare businesses navigate regulatory complexity, reimbursement dynamics, and capital intensity simultaneously. We provide the financial architecture and strategic guidance to scale responsibly.",
+        "focus": ["Revenue cycle optimization", "Regulatory capital planning", "Clinical expansion strategy", "Healthcare M&A advisory"]
+      },
+      {
+        "name": "Professional Services",
+        "description": "Knowledge-intensive service firms face unique challenges in scaling talent, maintaining utilization, and building recurring revenue. We architect the financial and operational systems for professional services growth.",
+        "focus": ["Utilization and billing optimization", "Talent cost architecture", "Practice area expansion", "Pricing model design"]
+      },
+      {
+        "name": "Industrial Operations",
+        "description": "Manufacturing and industrial businesses operate with complex cost structures, capital intensity, and operational leverage. We optimize the financial architecture to maximize throughput and margin.",
+        "focus": ["COGS and margin architecture", "CapEx planning and optimization", "Supply chain financial modeling", "Operational efficiency programs"]
+      },
+      {
+        "name": "E-commerce",
+        "description": "Digital commerce businesses require sophisticated unit economics frameworks, inventory capital management, and customer acquisition efficiency. We build the financial systems for sustainable e-commerce growth.",
+        "focus": ["Unit economics design", "Inventory capital optimization", "Marketing efficiency frameworks", "Multi-channel financial architecture"]
+      },
+      {
+        "name": "Family-Owned Businesses",
+        "description": "Multi-generational businesses face unique challenges in governance, succession, and professional management transition. We bring institutional frameworks to family enterprises navigating transformation.",
+        "focus": ["Governance professionalization", "Succession financial planning", "Institutional capital access", "Management transition support"]
+      }
+    ]
+  },
+  "portfolioPage": {
+    "eyebrow": "Portfolio",
+    "headline": "Where Strategy Meets Capital.",
+    "heroBody": "Each portfolio company represents a partnership — not just a capital position. We measure success in the quality of the companies we help build, not only the returns we generate.",
+    "filterAll": "All",
+    "companies": [
+      {
+        "name": "TechCore Africa",
+        "sector": "Technology & SaaS",
+        "region": "West Africa",
+        "year": "2019",
+        "description": "Enterprise SaaS platform enabling digital transformation for mid-market African companies. YD provided growth capital alongside strategic finance architecture and market expansion advisory.",
+        "outcome": "3.2x revenue growth in 24 months",
+        "tags": ["SaaS", "Africa", "Growth Capital"]
+      },
+      {
+        "name": "Meridian Health",
+        "sector": "Healthcare",
+        "region": "Brazil",
+        "year": "2020",
+        "description": "Integrated healthcare services company operating across multiple Brazilian states. YD led financial restructuring and supported Series B capital raise.",
+        "outcome": "Series B of R$45M successfully closed",
+        "tags": ["Healthcare", "Brazil", "Capital Raise"]
+      },
+      {
+        "name": "Pacific Industrial",
+        "sector": "Industrial Operations",
+        "region": "South America",
+        "year": "2018",
+        "description": "Industrial manufacturing group with 4 production facilities. YD redesigned the cost architecture and implemented operational finance systems.",
+        "outcome": "28% EBITDA margin improvement",
+        "tags": ["Industrial", "South America", "Operations"]
+      },
+      {
+        "name": "Vertex Commerce",
+        "sector": "E-commerce",
+        "region": "Latin America",
+        "year": "2021",
+        "description": "Multi-channel e-commerce platform operating across 6 Latin American markets. YD rebuilt unit economics framework and cash flow management systems.",
+        "outcome": "40% capital efficiency improvement",
+        "tags": ["E-commerce", "LatAm", "Unit Economics"]
+      }
+    ]
+  },
+  "insightsPage": {
+    "eyebrow": "Insights",
+    "headline": "Strategic Intelligence for Builders.",
+    "heroBody": "Our research and analysis is designed for operators and investors who treat strategic finance and capital intelligence as competitive advantages, not administrative functions.",
+    "filterAll": "All",
+    "categories": ["Strategic Finance", "Growth Architecture", "Operational Intelligence", "Capital Markets"],
+    "featured": {
+      "category": "Strategic Finance",
+      "title": "Why Growing Companies Silently Destroy Cash Flow",
+      "excerpt": "The paradox of growth capital: why the metrics that appear on investor decks often mask the financial dynamics that will eventually define a company's destiny. A deep analysis of cash flow pathologies in high-growth companies.",
+      "readTime": "8 min read",
+      "date": "January 2025"
+    },
+    "articles": [
+      {
+        "category": "Growth Architecture",
+        "title": "Strategic Finance as a Growth Multiplier",
+        "excerpt": "Beyond accounting and reporting — how strategic finance becomes the operating system that compounds growth and protects margin at every stage of scale.",
+        "readTime": "11 min read",
+        "date": "December 2024"
+      },
+      {
+        "category": "Operational Intelligence",
+        "title": "The Hidden Cost of Operational Complexity",
+        "excerpt": "Every layer of organizational complexity carries a financial cost that rarely appears on income statements but consistently appears in declining EBITDA.",
+        "readTime": "9 min read",
+        "date": "November 2024"
+      },
+      {
+        "category": "Capital Markets",
+        "title": "Capital Discipline in Emerging Markets",
+        "excerpt": "Why the capital allocation frameworks developed in mature markets require fundamental rethinking when applied to emerging economies.",
+        "readTime": "12 min read",
+        "date": "October 2024"
+      },
+      {
+        "category": "Strategic Finance",
+        "title": "The Fractional CFO as a Strategic Asset",
+        "excerpt": "Why growth-stage companies that deploy fractional CFO expertise before they can afford a full-time hire consistently outperform those that wait.",
+        "readTime": "7 min read",
+        "date": "September 2024"
+      },
+      {
+        "category": "Growth Architecture",
+        "title": "Building Operating Leverage Before You Need It",
+        "excerpt": "The companies that survive hyper-growth are those that build scalable operating systems before the growth curve makes the absence of those systems catastrophic.",
+        "readTime": "10 min read",
+        "date": "August 2024"
+      }
+    ]
+  }
+}

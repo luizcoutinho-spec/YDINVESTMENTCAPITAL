@@ -1,0 +1,521 @@
+{
+  "meta": {
+    "siteName": "YD Investment Capital",
+    "siteDescription": "Finance stratégique, intelligence du capital et conseil opérationnel pour les entreprises en phase de croissance, de complexité et d'expansion."
+  },
+  "nav": {
+    "strategicFinance": "Finance Stratégique",
+    "investmentCapital": "Capital d'Investissement",
+    "industries": "Secteurs",
+    "portfolio": "Portefeuille",
+    "insights": "Analyses",
+    "about": "À Propos",
+    "contact": "Contact",
+    "scheduleAssessment": "Planifier un Entretien",
+    "clientPortal": "Espace Client"
+  },
+  "hero": {
+    "eyebrow": "Growth & Capital Intelligence",
+    "headline": "Construire des Entreprises Prêtes à Croître.",
+    "subheadline": "Finance stratégique, intelligence du capital et conseil opérationnel pour les entreprises qui naviguent la croissance, la complexité et l'expansion.",
+    "ctaPrimary": "Planifier une Évaluation Exécutive",
+    "ctaSecondary": "Explorer la Finance Stratégique",
+    "scrollLabel": "Défiler pour explorer"
+  },
+  "positioningBar": {
+    "items": [
+      "Finance Stratégique",
+      "Conseil en Croissance",
+      "Intelligence du Capital",
+      "Préparation à l'Investissement",
+      "Architecture Opérationnelle",
+      "Conseil Exécutif"
+    ]
+  },
+  "strategicFinance": {
+    "eyebrow": "Finance Stratégique",
+    "headline": "Clarté Financière pour une Croissance Durable.",
+    "subheadline": "Nous concevons l'architecture financière qui permet aux entreprises de croître avec précision, discipline et une clarté de niveau institutionnel.",
+    "cards": [
+      {
+        "title": "Architecture Financière",
+        "description": "Construire les fondements structurels pour la performance financière et une prise de décision évolutive.",
+        "items": ["Prévisions Financières", "Optimisation des Marges", "Intelligence de Trésorerie", "Économie Unitaire"]
+      },
+      {
+        "title": "Finance de Croissance Stratégique",
+        "description": "Aligner la stratégie financière avec les objectifs de croissance pour débloquer un levier opérationnel composé.",
+        "items": ["Stratégie de Tarification", "Planification de l'Expansion", "Allocation du Capital", "Support à la Décision Exécutive"]
+      },
+      {
+        "title": "Préparation au Capital",
+        "description": "Préparer votre entreprise au capital institutionnel, à la gouvernance et aux reportings de qualité investissement.",
+        "items": ["Préparation aux Investisseurs", "Cadres de Gouvernance", "Infrastructure de Reporting", "Structuration de la Croissance"]
+      }
+    ],
+    "cta": "Explorer la Finance Stratégique"
+  },
+  "whyYD": {
+    "eyebrow": "Notre Philosophie",
+    "headline": "Vision d'Investisseur. Précision d'Opérateur.",
+    "body": "YD Investment Capital a été fondée à l'intersection de deux disciplines qui coexistent rarement — la rigueur analytique de l'investissement institutionnel et l'intelligence opérationnelle de la construction d'entreprises. Nous ne conseillons pas de l'extérieur. Nous pensons comme des principals.",
+    "pillars": [
+      {
+        "title": "Finance Stratégique",
+        "description": "Nous concevons des systèmes financiers qui donnent aux équipes dirigeantes une visibilité complète sur la performance, les risques et la trajectoire de croissance."
+      },
+      {
+        "title": "Intelligence Opérationnelle",
+        "description": "Nous identifions les inefficacités structurelles qui érodent silencieusement les marges et construisons des systèmes opérationnels qui s'adaptent sans chaos."
+      },
+      {
+        "title": "Analyse d'Investissement",
+        "description": "Chaque engagement est évalué sous l'angle de l'investissement — efficience du capital, dynamique des rendements et création de valeur à long terme."
+      },
+      {
+        "title": "Structuration du Capital",
+        "description": "Nous préparons et positionnons les entreprises pour les événements de capital — de la préparation à la Série A aux transactions M&A stratégiques et de private equity."
+      },
+      {
+        "title": "Architecture de Croissance",
+        "description": "Nous concevons les systèmes, processus et cadres stratégiques qui permettent aux entreprises de s'adapter avec structure, et non malgré elle."
+      }
+    ],
+    "stat1Value": "2014",
+    "stat1Label": "Fondée en",
+    "stat2Value": "40+",
+    "stat2Label": "Sociétés en Portefeuille",
+    "stat3Value": "3",
+    "stat3Label": "Continents"
+  },
+  "founderIntelligence": {
+    "eyebrow": "Intelligence Fondateur",
+    "headline": "Ce que la Plupart des Entreprises Apprennent Trop Tard.",
+    "insights": [
+      {
+        "quote": "La croissance du chiffre d'affaires ne garantit pas la génération de trésorerie.",
+        "detail": "Les entreprises à la croissance la plus rapide ont souvent les pires positions de trésorerie. La croissance consomme du capital — et sans une architecture financière pour gérer cette dynamique, la mise à l'échelle devient un passif."
+      },
+      {
+        "quote": "Le chaos opérationnel s'adapte plus vite que la structure.",
+        "detail": "Dans les premières étapes, le chaos est acceptable. À grande échelle, il devient catastrophique. Les entreprises qui survivent à la croissance sont celles qui construisent des systèmes opérationnels avant d'en avoir besoin."
+      },
+      {
+        "quote": "L'expansion sans architecture de capital comprime les marges.",
+        "detail": "L'expansion géographique et produit est une décision d'allocation de capital déguisée en décision stratégique. Sans un cadre de capital, chaque expansion détruit l'économie unitaire."
+      },
+      {
+        "quote": "La plupart des entreprises suivent le chiffre d'affaires mais ignorent l'efficience.",
+        "detail": "Le chiffre d'affaires est vanité. La marge est sanité. La trésorerie est réalité. Nous aidons les équipes dirigeantes à voir les trois — simultanément, en temps réel, avec une précision institutionnelle."
+      }
+    ]
+  },
+  "portfolio": {
+    "eyebrow": "Portefeuille",
+    "headline": "Des Entreprises Construites Ensemble.",
+    "subheadline": "Nous nous associons à des opérateurs exceptionnels aux points d'inflexion — en fournissant la finance stratégique, l'intelligence du capital et l'architecture de croissance qui transforme le potentiel en performance institutionnelle.",
+    "cta": "Voir le Portefeuille Complet",
+    "companies": [
+      {
+        "name": "TechCore Africa",
+        "sector": "Technologie & SaaS",
+        "region": "Afrique de l'Ouest",
+        "description": "Plateforme SaaS d'entreprise permettant la transformation numérique pour les entreprises africaines du mid-market.",
+        "outcome": "Croissance du chiffre d'affaires de 3,2x en 24 mois"
+      },
+      {
+        "name": "Meridian Health",
+        "sector": "Santé",
+        "region": "Brésil",
+        "description": "Société de services de santé intégrée opérant dans plusieurs États brésiliens.",
+        "outcome": "Levée de fonds Série B de R$45M structurée avec succès"
+      },
+      {
+        "name": "Pacific Industrial",
+        "sector": "Opérations Industrielles",
+        "region": "Amérique du Sud",
+        "description": "Groupe de fabrication industrielle avec 4 installations de production.",
+        "outcome": "Amélioration de 28% de la marge grâce à la restructuration opérationnelle"
+      },
+      {
+        "name": "Vertex Commerce",
+        "sector": "E-commerce",
+        "region": "Amérique Latine",
+        "description": "Plateforme e-commerce multicanal avec des opérations dans 6 marchés d'Amérique Latine.",
+        "outcome": "Amélioration de 40% de l'efficience du capital"
+      }
+    ]
+  },
+  "industries": {
+    "eyebrow": "Secteurs",
+    "headline": "Où Nous Déployons Capital et Stratégie.",
+    "sectors": [
+      {
+        "name": "Technologie & SaaS",
+        "description": "Entreprises portées par le logiciel à l'intersection de la scalabilité et de l'efficience du capital."
+      },
+      {
+        "name": "Santé",
+        "description": "Sociétés de services et de technologie de santé naviguant la complexité réglementaire et l'expansion."
+      },
+      {
+        "name": "Services Professionnels",
+        "description": "Entreprises de services à forte intensité de connaissances construisant des modèles opérationnels évolutifs."
+      },
+      {
+        "name": "Opérations Industrielles",
+        "description": "Entreprises manufacturières et industrielles optimisant opérations et architecture des marges."
+      },
+      {
+        "name": "E-commerce",
+        "description": "Entreprises de commerce numérique concevant l'économie unitaire pour une croissance durable."
+      },
+      {
+        "name": "Entreprises Familiales",
+        "description": "Entreprises multigénérationnelles professionnalisant gouvernance, finance et succession."
+      }
+    ]
+  },
+  "insights": {
+    "eyebrow": "Analyses",
+    "headline": "Intelligence pour Opérateurs et Investisseurs.",
+    "subheadline": "Une réflexion rigoureuse sur la finance stratégique, l'architecture opérationnelle et les marchés de capitaux.",
+    "cta": "Voir Toutes les Analyses",
+    "articles": [
+      {
+        "category": "Finance Stratégique",
+        "title": "Pourquoi les Entreprises en Croissance Détruisent Silencieusement leur Trésorerie",
+        "excerpt": "Le paradoxe du capital de croissance : pourquoi les métriques qui apparaissent dans les decks investisseurs masquent souvent les dynamiques financières qui définiront le destin d'une entreprise.",
+        "readTime": "8 min de lecture"
+      },
+      {
+        "category": "Architecture de Croissance",
+        "title": "La Finance Stratégique comme Multiplicateur de Croissance",
+        "excerpt": "Au-delà de la comptabilité et des rapports — comment la finance stratégique devient le système d'exploitation qui compose la croissance et protège les marges à chaque étape.",
+        "readTime": "11 min de lecture"
+      },
+      {
+        "category": "Intelligence Opérationnelle",
+        "title": "Le Coût Caché de la Complexité Opérationnelle",
+        "excerpt": "Chaque couche de complexité organisationnelle porte un coût financier qui apparaît rarement dans les comptes de résultats mais apparaît constamment dans l'EBITDA en déclin.",
+        "readTime": "9 min de lecture"
+      },
+      {
+        "category": "Marchés de Capitaux",
+        "title": "Discipline du Capital dans les Marchés Émergents",
+        "excerpt": "Pourquoi les cadres d'allocation du capital développés dans les marchés matures nécessitent une refonte fondamentale lorsqu'ils sont appliqués à la volatilité des économies émergentes.",
+        "readTime": "12 min de lecture"
+      }
+    ]
+  },
+  "executiveCTA": {
+    "eyebrow": "Commencer",
+    "headline": "Construisez une entreprise prête pour une croissance durable et un capital stratégique.",
+    "body": "Les entreprises qui se composent — en valeur, en capacité, en crédibilité institutionnelle — sont celles qui construisent l'architecture financière avant d'en avoir besoin.",
+    "cta": "Planifier une Évaluation Stratégique",
+    "ctaSecondary": "Contacter Notre Équipe",
+    "footnote": "São Paulo · Londres · Johannesburg"
+  },
+  "about": {
+    "eyebrow": "À Propos de YD",
+    "headline": "Un Partenaire de Capital Différent.",
+    "heroBody": "Fondée en 2014, YD Investment Capital a été construite sur une conviction : que les partenaires de capital les plus impactants sont ceux qui comprennent les deux côtés de la table — l'opérateur qui construit l'entreprise et l'investisseur qui alloue le capital.",
+    "missionHeadline": "Notre Mission",
+    "missionBody": "Nous existons pour donner aux entreprises exceptionnelles la finance stratégique, l'intelligence opérationnelle et l'accès au capital qui transforme le potentiel de croissance en performance institutionnelle. Nous ne déployons pas seulement du capital — nous construisons les conditions pour que le capital fonctionne.",
+    "philosophyHeadline": "Vision d'Investisseur. Précision d'Opérateur.",
+    "philosophyBody": "La plupart des cabinets de conseil pensent comme des consultants. La plupart des sociétés d'investissement pensent comme des allocateurs de capital. YD a été conçue pour penser comme les deux simultanément — apportant la rigueur analytique de niveau investissement aux décisions opérationnelles et la texture d'opérateur aux décisions d'investissement.",
+    "valuesHeadline": "Ce Que Nous Défendons",
+    "values": [
+      {
+        "title": "Honnêteté Intellectuelle",
+        "description": "Nous disons aux clients ce qu'ils ont besoin d'entendre, pas ce qu'ils veulent entendre. La clarté stratégique exige des vérités inconfortables."
+      },
+      {
+        "title": "Orientation Long Terme",
+        "description": "Nous mesurons le succès dans la composition de valeur, pas dans les heures de mission. Nos incitations sont alignées sur les résultats de nos clients."
+      },
+      {
+        "title": "Profondeur Opérationnelle",
+        "description": "Nous allons au-delà des modèles financiers pour comprendre les réalités opérationnelles qui déterminent si ces modèles sont réalisables."
+      },
+      {
+        "title": "Discipline du Capital",
+        "description": "Chaque recommandation stratégique est filtrée par le prisme de l'efficience du capital — parce que le capital est fini et son allocation est stratégie."
+      }
+    ],
+    "presenceHeadline": "Présence Mondiale",
+    "presenceBody": "Opérant en Amérique du Sud, en Afrique et en Europe, YD apporte une perspective véritablement mondiale à la stratégie de croissance et de capital.",
+    "locations": ["São Paulo, Brésil", "Johannesburg, Afrique du Sud", "Londres, Royaume-Uni"]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "headline": "Engager une Conversation Stratégique.",
+    "body": "Nous nous engageons sélectivement avec des entreprises et des équipes dirigeantes pour lesquelles la finance stratégique et l'intelligence du capital représentent un avantage concurrentiel réel. Si cela vous décrit, nous aimerions vous entendre.",
+    "form": {
+      "nameLabel": "Nom Complet",
+      "namePlaceholder": "Votre nom",
+      "companyLabel": "Entreprise",
+      "companyPlaceholder": "Nom de l'entreprise",
+      "emailLabel": "Adresse Email",
+      "emailPlaceholder": "votre@email.com",
+      "phoneLabel": "Téléphone",
+      "phonePlaceholder": "+33 (0) 1 00 00 00 00",
+      "subjectLabel": "Sujet",
+      "subjectPlaceholder": "Comment pouvons-nous vous aider?",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Parlez-nous de votre entreprise et des défis que vous traversez...",
+      "submitButton": "Envoyer le Message",
+      "submitting": "Envoi en cours...",
+      "successTitle": "Message Reçu.",
+      "successBody": "Merci de nous avoir contacté. Un membre de notre équipe vous répondra dans les 48 heures."
+    },
+    "offices": [
+      {
+        "city": "São Paulo",
+        "country": "Brésil",
+        "address": "Rua Irmã Gabriela, 51",
+        "postal": "São Paulo/SP 04571-130"
+      }
+    ],
+    "email": "contact@ydinvestmentcapital.com",
+    "phone": "+55 (11) 9999-0000"
+  },
+  "footer": {
+    "tagline": "Growth & Capital Intelligence.",
+    "description": "Finance stratégique, intelligence du capital et conseil opérationnel pour les entreprises en phase de croissance, de complexité et d'expansion.",
+    "navigation": "Navigation",
+    "services": "Services",
+    "company": "Entreprise",
+    "legal": "Légal",
+    "privacyPolicy": "Politique de Confidentialité",
+    "termsOfService": "Conditions d'Utilisation",
+    "copyright": "© {year} YD Investment Capital. Tous droits réservés.",
+    "services_items": [
+      "Architecture Financière",
+      "Finance de Croissance Stratégique",
+      "Préparation au Capital",
+      "Conseil en Investissement"
+    ]
+  },
+  "strategicFinancePage": {
+    "eyebrow": "Finance Stratégique",
+    "headline": "Le Système d'Exploitation Financier pour une Croissance Durable.",
+    "heroBody": "La finance stratégique n'est pas une fonction comptable. C'est le système d'exploitation grâce auquel les entreprises prennent de meilleures décisions, allouent le capital avec précision et construisent les fondements structurels qui permettent à la croissance de se composer plutôt que de consommer.",
+    "servicesHeadline": "Nos Capacités",
+    "services": [
+      {
+        "title": "Architecture Financière",
+        "description": "Nous concevons et mettons en œuvre des systèmes financiers qui donnent aux équipes dirigeantes une visibilité complète sur les moteurs de performance, la consommation de capital et les dynamiques de marge.",
+        "capabilities": ["Modélisation financière multi-scénarios", "P&L, bilan et flux de trésorerie intégrés", "Conception de cadre KPI", "Systèmes de reporting de gestion", "Tableaux de bord financiers pour le conseil"]
+      },
+      {
+        "title": "Intelligence de Trésorerie",
+        "description": "La trésorerie est l'oxygène de l'entreprise. Nous construisons les systèmes et cadres qui garantissent que vous savez toujours où est votre trésorerie, où elle va et comment optimiser son déploiement.",
+        "capabilities": ["Prévisions de trésorerie glissantes sur 13 semaines", "Optimisation du besoin en fonds de roulement", "Analyse du cycle de conversion de trésorerie", "Cadres de gestion de trésorerie", "Gestion du risque de liquidité"]
+      },
+      {
+        "title": "Architecture des Marges",
+        "description": "Une croissance durable nécessite des marges en expansion. Nous analysons et restructurons les architectures de coûts, les modèles de tarification et les dynamiques opérationnelles pour améliorer systématiquement la rentabilité.",
+        "capabilities": ["Analyse et optimisation de la marge brute", "Développement de stratégie de tarification", "Modélisation de l'économie unitaire", "Refonte de la structure des coûts", "Programmes d'amélioration de l'EBITDA"]
+      },
+      {
+        "title": "Allocation du Capital",
+        "description": "L'endroit où vous déployez le capital définit votre avenir. Nous construisons les cadres analytiques et processus de gouvernance qui garantissent que les décisions d'allocation de capital créent de la valeur à long terme.",
+        "capabilities": ["Cadres d'allocation du capital", "Modèles de priorisation des investissements", "Analyse ROI et délai de récupération", "Optimisation de portefeuille", "Planification stratégique du capital"]
+      }
+    ],
+    "processHeadline": "Notre Modèle d'Engagement",
+    "processSteps": [
+      {
+        "step": "01",
+        "title": "Diagnostic Stratégique",
+        "description": "Une évaluation complète de votre architecture financière actuelle, identifiant les lacunes, inefficacités et points de levier stratégique."
+      },
+      {
+        "step": "02",
+        "title": "Conception de l'Architecture",
+        "description": "Nous concevons les systèmes financiers, modèles et cadres de gouvernance adaptés à votre modèle d'affaires et objectifs de croissance spécifiques."
+      },
+      {
+        "step": "03",
+        "title": "Mise en Œuvre",
+        "description": "Nous travaillons aux côtés de votre équipe pour mettre en œuvre les systèmes conçus, en assurant l'adoption, le transfert de compétences et l'intégration opérationnelle."
+      },
+      {
+        "step": "04",
+        "title": "Intelligence Continue",
+        "description": "Support CFO fractionnel, revues stratégiques régulières et optimisation continue pour s'assurer que votre architecture financière évolue avec votre entreprise."
+      }
+    ]
+  },
+  "investmentCapitalPage": {
+    "eyebrow": "Capital d'Investissement",
+    "headline": "Capital avec Intelligence Stratégique.",
+    "heroBody": "YD déploie le capital aux côtés de l'expertise stratégique — parce que le capital financier sans intelligence opérationnelle est incomplet. Nous investissons dans des entreprises où notre présence en tant que partenaire accélère la création de valeur.",
+    "approachHeadline": "Notre Approche d'Investissement",
+    "approachBody": "Nous nous concentrons sur les entreprises en phase de croissance dans les marchés émergents où la finance stratégique et l'expertise opérationnelle représentent un avantage concurrentiel réel pour nos sociétés en portefeuille.",
+    "criteria": [
+      {
+        "title": "Stade",
+        "value": "Phase de Croissance",
+        "detail": "Entreprises avec un product-market fit démontré, une traction initiale des revenus et des voies d'expansion claires."
+      },
+      {
+        "title": "Géographie",
+        "value": "Marchés Émergents",
+        "detail": "Amérique du Sud, Afrique subsaharienne et marchés européens sélectionnés avec des dynamiques de marchés émergents."
+      },
+      {
+        "title": "Secteurs",
+        "value": "Technologie, Santé, Services",
+        "detail": "Entreprises à l'intersection de la scalabilité, des dynamiques de revenus récurrents et d'une position de marché défendable."
+      },
+      {
+        "title": "Capital",
+        "value": "Investissement Stratégique",
+        "detail": "Déploiement initial de capital accompagné d'un support opérationnel et stratégique en tant que co-investisseurs partenaires."
+      }
+    ],
+    "valueAddHeadline": "Au-delà du Capital",
+    "valueAddItems": [
+      "Architecture de finance stratégique",
+      "Conseil C-suite et représentation au conseil",
+      "Accès et introductions aux marchés de capitaux",
+      "Support à la restructuration opérationnelle",
+      "Capacité d'investissement de suivi",
+      "Accès au réseau inter-portefeuille"
+    ]
+  },
+  "industriesPage": {
+    "eyebrow": "Secteurs",
+    "headline": "Intelligence Sectorielle en Profondeur.",
+    "heroBody": "Un conseil significatif nécessite une connaissance sectorielle approfondie. Nous apportons des cadres spécifiques à chaque secteur, une intelligence concurrentielle et une expertise opérationnelle à chaque engagement.",
+    "sectors": [
+      {
+        "name": "Technologie & SaaS",
+        "description": "Les entreprises logicielles et technologiques nécessitent des cadres financiers uniques qui capturent l'économie des revenus récurrents, de l'acquisition de clients et de la valeur vie. Nous apportons une expertise approfondie en métriques SaaS aux côtés de la stratégie de capital.",
+        "focus": ["Optimisation ARR/MRR", "Conception de cadre CAC/LTV", "Analyse et réduction du churn", "Efficience du capital SaaS"]
+      },
+      {
+        "name": "Santé",
+        "description": "Les entreprises de santé naviguent simultanément la complexité réglementaire, les dynamiques de remboursement et l'intensité capitalistique. Nous fournissons l'architecture financière et les orientations stratégiques pour évoluer de manière responsable.",
+        "focus": ["Optimisation du cycle de revenus", "Planification du capital réglementaire", "Stratégie d'expansion clinique", "Conseil en M&A santé"]
+      },
+      {
+        "name": "Services Professionnels",
+        "description": "Les entreprises de services à forte intensité de connaissances font face à des défis uniques dans la mise à l'échelle des talents, le maintien du taux d'utilisation et la construction de revenus récurrents.",
+        "focus": ["Optimisation du taux d'utilisation et de facturation", "Architecture des coûts de talent", "Expansion des domaines de pratique", "Conception du modèle de tarification"]
+      },
+      {
+        "name": "Opérations Industrielles",
+        "description": "Les entreprises manufacturières et industrielles opèrent avec des structures de coûts complexes, une intensité capitalistique et un levier opérationnel. Nous optimisons l'architecture financière pour maximiser le débit et la marge.",
+        "focus": ["Architecture COGS et marge", "Planification et optimisation CapEx", "Modélisation financière de la chaîne d'approvisionnement", "Programmes d'efficience opérationnelle"]
+      },
+      {
+        "name": "E-commerce",
+        "description": "Les entreprises de commerce numérique nécessitent des cadres sophistiqués d'économie unitaire, de gestion du capital de stock et d'efficience de l'acquisition client.",
+        "focus": ["Conception de l'économie unitaire", "Optimisation du capital de stock", "Cadres d'efficience marketing", "Architecture financière multicanal"]
+      },
+      {
+        "name": "Entreprises Familiales",
+        "description": "Les entreprises multigénérationnelles font face à des défis uniques en matière de gouvernance, de succession et de transition vers une gestion professionnelle.",
+        "focus": ["Professionnalisation de la gouvernance", "Planification financière de succession", "Accès au capital institutionnel", "Support à la transition de management"]
+      }
+    ]
+  },
+  "portfolioPage": {
+    "eyebrow": "Portefeuille",
+    "headline": "Où la Stratégie Rencontre le Capital.",
+    "heroBody": "Chaque société en portefeuille représente un partenariat — pas seulement une position de capital. Nous mesurons le succès dans la qualité des entreprises que nous aidons à construire, pas seulement dans les rendements que nous générons.",
+    "filterAll": "Tous",
+    "companies": [
+      {
+        "name": "TechCore Africa",
+        "sector": "Technologie & SaaS",
+        "region": "Afrique de l'Ouest",
+        "year": "2019",
+        "description": "Plateforme SaaS d'entreprise permettant la transformation numérique pour les entreprises africaines du mid-market. YD a fourni du capital de croissance aux côtés d'une architecture de finance stratégique.",
+        "outcome": "Croissance du CA de 3,2x en 24 mois",
+        "tags": ["SaaS", "Afrique", "Capital de Croissance"]
+      },
+      {
+        "name": "Meridian Health",
+        "sector": "Santé",
+        "region": "Brésil",
+        "year": "2020",
+        "description": "Société de services de santé intégrée opérant dans plusieurs États brésiliens. YD a dirigé la restructuration financière et soutenu la levée de fonds Série B.",
+        "outcome": "Série B de R$45M clôturée avec succès",
+        "tags": ["Santé", "Brésil", "Levée de Fonds"]
+      },
+      {
+        "name": "Pacific Industrial",
+        "sector": "Opérations Industrielles",
+        "region": "Amérique du Sud",
+        "year": "2018",
+        "description": "Groupe de fabrication industrielle avec 4 installations de production. YD a reconfiguré l'architecture des coûts et mis en œuvre des systèmes de finance opérationnelle.",
+        "outcome": "Amélioration de 28% de la marge EBITDA",
+        "tags": ["Industriel", "Amérique du Sud", "Opérations"]
+      },
+      {
+        "name": "Vertex Commerce",
+        "sector": "E-commerce",
+        "region": "Amérique Latine",
+        "year": "2021",
+        "description": "Plateforme e-commerce multicanal avec des opérations dans 6 marchés d'Amérique Latine. YD a reconstruit le cadre d'économie unitaire et les systèmes de gestion de trésorerie.",
+        "outcome": "Amélioration de 40% de l'efficience du capital",
+        "tags": ["E-commerce", "Amérique Latine", "Économie Unitaire"]
+      }
+    ]
+  },
+  "insightsPage": {
+    "eyebrow": "Analyses",
+    "headline": "Intelligence Stratégique pour les Bâtisseurs.",
+    "heroBody": "Nos recherches et analyses sont conçues pour les opérateurs et investisseurs qui traitent la finance stratégique et l'intelligence du capital comme des avantages concurrentiels, non comme des fonctions administratives.",
+    "filterAll": "Tous",
+    "categories": ["Finance Stratégique", "Architecture de Croissance", "Intelligence Opérationnelle", "Marchés de Capitaux"],
+    "featured": {
+      "category": "Finance Stratégique",
+      "title": "Pourquoi les Entreprises en Croissance Détruisent Silencieusement leur Trésorerie",
+      "excerpt": "Le paradoxe du capital de croissance : pourquoi les métriques qui apparaissent dans les decks investisseurs masquent souvent les dynamiques financières qui définiront le destin d'une entreprise.",
+      "readTime": "8 min de lecture",
+      "date": "Janvier 2025"
+    },
+    "articles": [
+      {
+        "category": "Architecture de Croissance",
+        "title": "La Finance Stratégique comme Multiplicateur de Croissance",
+        "excerpt": "Au-delà de la comptabilité et des rapports — comment la finance stratégique devient le système d'exploitation qui compose la croissance et protège les marges.",
+        "readTime": "11 min de lecture",
+        "date": "Décembre 2024"
+      },
+      {
+        "category": "Intelligence Opérationnelle",
+        "title": "Le Coût Caché de la Complexité Opérationnelle",
+        "excerpt": "Chaque couche de complexité organisationnelle porte un coût financier qui apparaît rarement dans les comptes de résultats.",
+        "readTime": "9 min de lecture",
+        "date": "Novembre 2024"
+      },
+      {
+        "category": "Marchés de Capitaux",
+        "title": "Discipline du Capital dans les Marchés Émergents",
+        "excerpt": "Pourquoi les cadres d'allocation du capital développés dans les marchés matures nécessitent une refonte fondamentale dans les économies émergentes.",
+        "readTime": "12 min de lecture",
+        "date": "Octobre 2024"
+      },
+      {
+        "category": "Finance Stratégique",
+        "title": "Le DAF de Transition comme Actif Stratégique",
+        "excerpt": "Pourquoi les entreprises en phase de croissance qui déploient l'expertise DAF de transition avant de pouvoir recruter à temps plein surpassent systématiquement celles qui attendent.",
+        "readTime": "7 min de lecture",
+        "date": "Septembre 2024"
+      },
+      {
+        "category": "Architecture de Croissance",
+        "title": "Construire le Levier Opérationnel Avant d'en Avoir Besoin",
+        "excerpt": "Les entreprises qui survivent à l'hyper-croissance sont celles qui construisent des systèmes opérationnels évolutifs avant que la courbe de croissance ne rende l'absence de ces systèmes catastrophique.",
+        "readTime": "10 min de lecture",
+        "date": "Août 2024"
+      }
+    ]
+  }
+}

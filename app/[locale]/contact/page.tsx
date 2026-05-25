@@ -1,0 +1,176 @@
+"use client";
+
+import { useState } from "react";
+import { useTranslations, useLocale } from "next-intl";
+
+export default function ContactPage() {
+  const t = useTranslations("contact");
+  const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+
+  const offices = t.raw("offices") as Array<{
+    city: string;
+    country: string;
+    address: string;
+    postal: string;
+  }>;
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setSubmitting(true);
+    await new Promise((r) => setTimeout(r, 1200));
+    setSubmitting(false);
+    setSubmitted(true);
+  };
+
+  return (
+    <>
+      {/* Hero */}
+      <section className="bg-yd-black section-padding pt-40 pb-section border-b border-yd-graphite-border">
+        <div className="container-wide">
+          <div className="max-w-3xl">
+            <span className="eyebrow block mb-6">{t("eyebrow")}</span>
+            <h1 className="font-display text-display-xl text-yd-off-white mb-8 leading-tight">
+              {t("headline")}
+            </h1>
+            <p className="text-body-lg text-yd-gray-soft leading-relaxed">
+              {t("body")}
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Form + Info */}
+      <section className="bg-yd-graphite section-padding py-section border-b border-yd-graphite-border">
+        <div className="container-wide">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24">
+            {/* Form */}
+            <div className="lg:col-span-7">
+              {submitted ? (
+                <div className="py-16">
+                  <div className="w-8 h-px bg-yd-metallic mb-8" />
+                  <h2 className="font-display text-display-md text-yd-off-white mb-4">
+                    {t("form.successTitle")}
+                  </h2>
+                  <p className="text-body-lg text-yd-gray-soft leading-relaxed">
+                    {t("form.successBody")}
+                  </p>
+                </div>
+              ) : (
+                <form onSubmit={handleSubmit} className="flex flex-col gap-6">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div className="flex flex-col gap-2">
+                      <label className="text-[0.65rem] tracking-[0.12em] uppercase font-sans text-yd-gray-soft">
+                        {t("form.nameLabel")}
+                      </label>
+                      <input
+                        type="text"
+                        required
+                        placeholder={t("form.namePlaceholder")}
+                        className="bg-transparent border border-yd-graphite-border text-yd-off-white placeholder-yd-gray-dark text-body-sm px-4 py-3.5 focus:outline-none focus:border-yd-gray-mid transition-colors duration-200"
+                      />
+                    </div>
+                    <div className="flex flex-col gap-2">
+                      <label className="text-[0.65rem] tracking-[0.12em] uppercase font-sans text-yd-gray-soft">
+                        {t("form.companyLabel")}
+                      </label>
+                      <input
+                        type="text"
+                        required
+                        placeholder={t("form.companyPlaceholder")}
+                        className="bg-transparent border border-yd-graphite-border text-yd-off-white placeholder-yd-gray-dark text-body-sm px-4 py-3.5 focus:outline-none focus:border-yd-gray-mid transition-colors duration-200"
+                      />
+                    </div>
+                  </div>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div className="flex flex-col gap-2">
+                      <label className="text-[0.65rem] tracking-[0.12em] uppercase font-sans text-yd-gray-soft">
+                        {t("form.emailLabel")}
+                      </label>
+                      <input
+                        type="email"
+                        required
+                        placeholder={t("form.emailPlaceholder")}
+                        className="bg-transparent border border-yd-graphite-border text-yd-off-white placeholder-yd-gray-dark text-body-sm px-4 py-3.5 focus:outline-none focus:border-yd-gray-mid transition-colors duration-200"
+                      />
+                    </div>
+                    <div className="flex flex-col gap-2">
+                      <label className="text-[0.65rem] tracking-[0.12em] uppercase font-sans text-yd-gray-soft">
+                        {t("form.phoneLabel")}
+                      </label>
+                      <input
+                        type="tel"
+                        placeholder={t("form.phonePlaceholder")}
+                        className="bg-transparent border border-yd-graphite-border text-yd-off-white placeholder-yd-gray-dark text-body-sm px-4 py-3.5 focus:outline-none focus:border-yd-gray-mid transition-colors duration-200"
+                      />
+                    </div>
+                  </div>
+                  <div className="flex flex-col gap-2">
+                    <label className="text-[0.65rem] tracking-[0.12em] uppercase font-sans text-yd-gray-soft">
+                      {t("form.subjectLabel")}
+                    </label>
+                    <input
+                      type="text"
+                      placeholder={t("form.subjectPlaceholder")}
+                      className="bg-transparent border border-yd-graphite-border text-yd-off-white placeholder-yd-gray-dark text-body-sm px-4 py-3.5 focus:outline-none focus:border-yd-gray-mid transition-colors duration-200"
+                    />
+                  </div>
+                  <div className="flex flex-col gap-2">
+                    <label className="text-[0.65rem] tracking-[0.12em] uppercase font-sans text-yd-gray-soft">
+                      {t("form.messageLabel")}
+                    </label>
+                    <textarea
+                      required
+                      rows={6}
+                      placeholder={t("form.messagePlaceholder")}
+                      className="bg-transparent border border-yd-graphite-border text-yd-off-white placeholder-yd-gray-dark text-body-sm px-4 py-3.5 focus:outline-none focus:border-yd-gray-mid transition-colors duration-200 resize-none"
+                    />
+                  </div>
+                  <div className="flex justify-start pt-2">
+                    <button
+                      type="submit"
+                      disabled={submitting}
+                      className="inline-flex items-center justify-center text-[0.7rem] tracking-[0.1em] uppercase font-sans font-medium text-yd-off-white bg-transparent border border-yd-off-white px-8 py-4 hover:bg-yd-off-white hover:text-yd-black transition-all duration-300 disabled:opacity-50 disabled:pointer-events-none"
+                    >
+                      {submitting ? t("form.submitting") : t("form.submitButton")}
+                    </button>
+                  </div>
+                </form>
+              )}
+            </div>
+
+            {/* Contact info */}
+            <div className="lg:col-span-5 flex flex-col gap-10 pt-2">
+              {offices.map((office, i) => (
+                <div key={i} className="border-b border-yd-graphite-border pb-8">
+                  <p className="eyebrow mb-3">{office.city}</p>
+                  <p className="text-body-sm text-yd-gray-soft">{office.country}</p>
+                  <p className="text-body-sm text-yd-gray-soft">{office.address}</p>
+                  <p className="text-body-sm text-yd-gray-soft">{office.postal}</p>
+                </div>
+              ))}
+              <div className="border-b border-yd-graphite-border pb-8">
+                <p className="eyebrow mb-3">Email</p>
+                <a
+                  href={`mailto:${t("email")}`}
+                  className="text-body-sm text-yd-gray-soft hover:text-yd-off-white transition-colors duration-200"
+                >
+                  {t("email")}
+                </a>
+              </div>
+              <div>
+                <p className="eyebrow mb-3">Phone</p>
+                <a
+                  href={`tel:${t("phone")}`}
+                  className="text-body-sm text-yd-gray-soft hover:text-yd-off-white transition-colors duration-200"
+                >
+                  {t("phone")}
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
