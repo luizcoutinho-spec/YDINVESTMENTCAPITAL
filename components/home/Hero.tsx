@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useTranslations, useLocale } from "next-intl";
 import { motion } from "framer-motion";
+import VideoBackground from "@/components/ui/VideoBackground";
 
 export default function Hero() {
   const t = useTranslations("hero");
@@ -23,6 +24,11 @@ export default function Hero() {
 
   return (
     <section className="relative min-h-screen flex flex-col justify-end pb-20 md:pb-28 overflow-hidden bg-yd-black">
+      <VideoBackground
+        src="https://assets.mixkit.co/videos/49845/49845-720.mp4"
+        overlayOpacity={72}
+      />
+
       {/* Background grid */}
       <div
         className="absolute inset-0 opacity-[0.04]"

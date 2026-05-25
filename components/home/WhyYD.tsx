@@ -3,6 +3,7 @@
 import { useTranslations } from "next-intl";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
+import VideoBackground from "@/components/ui/VideoBackground";
 
 interface Pillar {
   title: string;
@@ -19,9 +20,14 @@ export default function WhyYD() {
   return (
     <section
       ref={ref}
-      className="bg-yd-graphite section-padding py-section lg:py-section-lg border-b border-yd-graphite-border"
+      className="relative overflow-hidden bg-yd-black section-padding py-section lg:py-section-lg border-b border-yd-graphite-border"
     >
-      <div className="container-wide">
+      <VideoBackground
+        src="https://assets.mixkit.co/videos/2571/2571-720.mp4"
+        overlayOpacity={80}
+      />
+
+      <div className="container-wide relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-20">
           {/* Left column */}
           <div className="lg:col-span-5">
