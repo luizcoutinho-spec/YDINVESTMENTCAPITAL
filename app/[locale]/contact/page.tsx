@@ -8,13 +8,6 @@ export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
 
-  const offices = t.raw("offices") as Array<{
-    city: string;
-    country: string;
-    address: string;
-    postal: string;
-  }>;
-
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setSubmitting(true);
@@ -43,9 +36,9 @@ export default function ContactPage() {
       {/* Form + Info */}
       <section className="bg-yd-graphite section-padding py-section border-b border-yd-graphite-border">
         <div className="container-wide">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24">
+          <div className="max-w-3xl">
             {/* Form */}
-            <div className="lg:col-span-7">
+            <div>
               {submitted ? (
                 <div className="py-16">
                   <div className="w-8 h-px bg-yd-metallic mb-8" />
@@ -139,35 +132,6 @@ export default function ContactPage() {
               )}
             </div>
 
-            {/* Contact info */}
-            <div className="lg:col-span-5 flex flex-col gap-10 pt-2">
-              {offices.map((office, i) => (
-                <div key={i} className="border-b border-yd-graphite-border pb-8">
-                  <p className="eyebrow mb-3">{office.city}</p>
-                  <p className="text-body-sm text-yd-gray-soft">{office.country}</p>
-                  <p className="text-body-sm text-yd-gray-soft">{office.address}</p>
-                  <p className="text-body-sm text-yd-gray-soft">{office.postal}</p>
-                </div>
-              ))}
-              <div className="border-b border-yd-graphite-border pb-8">
-                <p className="eyebrow mb-3">Email</p>
-                <a
-                  href={`mailto:${t("email")}`}
-                  className="text-body-sm text-yd-gray-soft hover:text-yd-off-white transition-colors duration-200"
-                >
-                  {t("email")}
-                </a>
-              </div>
-              <div>
-                <p className="eyebrow mb-3">Phone</p>
-                <a
-                  href={`tel:${t("phone")}`}
-                  className="text-body-sm text-yd-gray-soft hover:text-yd-off-white transition-colors duration-200"
-                >
-                  {t("phone")}
-                </a>
-              </div>
-            </div>
           </div>
         </div>
       </section>
