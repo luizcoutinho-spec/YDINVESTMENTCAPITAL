@@ -107,9 +107,6 @@ export default function Hero() {
               <span className="block w-3 h-px bg-yd-gray-dark animate-pulse" />
               {t("scrollLabel")}
             </div>
-            <span className="text-[0.65rem] tracking-[0.15em] uppercase text-yd-gray-dark font-sans">
-              São Paulo · Johannesburg · London
-            </span>
           </div>
         </motion.div>
       </div>
