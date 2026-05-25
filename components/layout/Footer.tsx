@@ -69,35 +69,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Contact */}
-          <div>
-            <p className="eyebrow mb-6">{t("company")}</p>
-            <ul className="flex flex-col gap-3">
-              <li>
-                <a
-                  href="mailto:contact@ydinvestmentcapital.com"
-                  className="text-body-sm text-yd-gray-soft hover:text-yd-off-white transition-colors duration-200"
-                >
-                  contact@ydinvestmentcapital.com
-                </a>
-              </li>
-              <li>
-                <p className="text-body-sm text-yd-gray-soft">
-                  São Paulo, Brasil
-                </p>
-              </li>
-              <li>
-                <p className="text-body-sm text-yd-gray-soft">
-                  Johannesburg, South Africa
-                </p>
-              </li>
-              <li>
-                <p className="text-body-sm text-yd-gray-soft">
-                  London, United Kingdom
-                </p>
-              </li>
-            </ul>
-          </div>
         </div>
 
         {/* Bottom row */}
