@@ -17,21 +17,21 @@ export default function ContactPage() {
     const data = new FormData(e.currentTarget);
 
     try {
-      const res = await fetch("https://formsubmit.co/ajax/info@brandvakt.com", {
+      const res = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
           Accept: "application/json",
         },
         body: JSON.stringify({
+          access_key: "6a71b5cd-7cfe-4ee7-835c-dd784a91e165",
           name: data.get("name"),
           company: data.get("company"),
           email: data.get("email"),
           phone: data.get("phone") || "—",
-          subject: data.get("subject") || `Nova mensagem de ${data.get("name")}`,
+          subject: `[YD Investment Capital] ${data.get("subject") || `Nova mensagem de ${data.get("name")}`}`,
           message: data.get("message"),
-          _subject: `[YD Investment Capital] ${data.get("subject") || `Nova mensagem de ${data.get("name")}`}`,
-          _template: "table",
+          from_name: "YD Investment Capital",
         }),
       });
 
