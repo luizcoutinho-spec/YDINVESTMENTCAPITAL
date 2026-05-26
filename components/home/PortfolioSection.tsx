@@ -77,7 +77,7 @@ export default function PortfolioSection() {
               <div className="md:col-span-3">
                 {company.name === "Brandvakt" ? (
                   <Image
-                    src="/brandvakt-logo.svg"
+                    src="/brandvakt-logo.png"
                     alt="Brandvakt"
                     width={140}
                     height={36}

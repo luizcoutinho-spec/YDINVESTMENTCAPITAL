@@ -66,7 +66,7 @@ export default async function PortfolioPage({
                     </span>
                     {company.name === "Brandvakt" ? (
                       <Image
-                        src="/brandvakt-logo.svg"
+                        src="/brandvakt-logo.png"
                         alt="Brandvakt"
                         width={160}
                         height={40}
