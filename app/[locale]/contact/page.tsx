@@ -3,8 +3,6 @@
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 
-const WEB3FORMS_KEY = "6a71b5cd-7cfe-4ee7-835c-dd784a91e165";
-
 export default function ContactPage() {
   const t = useTranslations("contact");
   const [submitted, setSubmitted] = useState(false);
@@ -19,24 +17,27 @@ export default function ContactPage() {
     const data = new FormData(e.currentTarget);
 
     try {
-      const res = await fetch("https://api.web3forms.com/submit", {
+      const res = await fetch("https://formsubmit.co/ajax/info@brandvakt.com", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
         body: JSON.stringify({
-          access_key: WEB3FORMS_KEY,
           name: data.get("name"),
           company: data.get("company"),
           email: data.get("email"),
-          phone: data.get("phone"),
+          phone: data.get("phone") || "—",
           subject: data.get("subject") || `Nova mensagem de ${data.get("name")}`,
           message: data.get("message"),
-          from_name: "YD Investment Capital",
+          _subject: `[YD Investment Capital] ${data.get("subject") || `Nova mensagem de ${data.get("name")}`}`,
+          _template: "table",
         }),
       });
 
       const json = await res.json();
 
-      if (json.success) {
+      if (json.success === "true" || json.success === true) {
         setSubmitted(true);
       } else {
         setError(true);
