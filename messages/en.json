@@ -118,9 +118,9 @@
     "companies": [
       {
         "name": "Brandvakt",
-        "sector": "Digital Trust & AI Governance",
+        "sector": "Cybersecurity & Digital Governance",
         "region": "Global",
-        "description": "Digital trust and AI governance platform helping organizations navigate the intersection of artificial intelligence, compliance, and brand integrity.",
+        "description": "Brandvakt is a global cybersecurity and digital governance company specializing in cyber resilience, critical infrastructure protection, and risk management in highly regulated corporate environments.",
         "outcome": "Active portfolio company — brandvakt.com"
       }
     ]
@@ -410,12 +410,12 @@
     "companies": [
       {
         "name": "Brandvakt",
-        "sector": "Digital Trust & AI Governance",
+        "sector": "Cybersecurity & Digital Governance",
         "region": "Global",
         "year": "2024",
-        "description": "Digital trust and AI governance platform helping organizations navigate the intersection of artificial intelligence, compliance, and brand integrity. YD provides strategic finance and growth architecture support.",
+        "description": "Brandvakt is a global cybersecurity and digital governance company specializing in cyber resilience, critical infrastructure protection, and risk management in highly regulated corporate environments. YD provides strategic finance and growth architecture support.",
         "outcome": "Active portfolio partnership — brandvakt.com",
-        "tags": ["Digital Trust", "AI Governance", "Global"]
+        "tags": ["Cybersecurity", "Critical Infrastructure", "Global"]
       }
     ]
   },

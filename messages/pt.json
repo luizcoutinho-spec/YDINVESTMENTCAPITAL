@@ -118,9 +118,9 @@
     "companies": [
       {
         "name": "Brandvakt",
-        "sector": "Confiança Digital & Governança de IA",
+        "sector": "Cibersegurança & Governança Digital",
         "region": "Global",
-        "description": "Plataforma de confiança digital e governança de IA que auxilia organizações a navegar na intersecção entre inteligência artificial, conformidade e integridade de marca.",
+        "description": "A Brandvakt é uma empresa global de cibersegurança e governança digital especializada em resiliência cibernética, proteção de infraestrutura crítica e gestão de riscos em ambientes corporativos altamente regulados.",
         "outcome": "Empresa ativa no portfólio — brandvakt.com"
       }
     ]
@@ -410,12 +410,12 @@
     "companies": [
       {
         "name": "Brandvakt",
-        "sector": "Confiança Digital & Governança de IA",
+        "sector": "Cibersegurança & Governança Digital",
         "region": "Global",
         "year": "2024",
-        "description": "Plataforma de confiança digital e governança de IA que auxilia organizações a navegar na intersecção entre inteligência artificial, conformidade e integridade de marca. A YD fornece suporte de finanças estratégicas e arquitetura de crescimento.",
+        "description": "A Brandvakt é uma empresa global de cibersegurança e governança digital especializada em resiliência cibernética, proteção de infraestrutura crítica e gestão de riscos em ambientes corporativos altamente regulados. A YD fornece suporte de finanças estratégicas e arquitetura de crescimento.",
         "outcome": "Parceria ativa no portfólio — brandvakt.com",
-        "tags": ["Confiança Digital", "Governança de IA", "Global"]
+        "tags": ["Cibersegurança", "Infraestrutura Crítica", "Global"]
       }
     ]
   },
