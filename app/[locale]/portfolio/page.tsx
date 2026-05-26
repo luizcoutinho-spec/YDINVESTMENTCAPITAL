@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
+import Image from "next/image";
 import ExecutiveCTA from "@/components/home/ExecutiveCTA";
 
 export async function generateMetadata({
@@ -63,9 +64,19 @@ export default async function PortfolioPage({
                     <span className="text-[0.65rem] tracking-[0.12em] font-sans text-yd-gray-dark block mb-2">
                       {company.year}
                     </span>
-                    <h3 className="font-display text-2xl text-yd-off-white">
-                      {company.name}
-                    </h3>
+                    {company.name === "Brandvakt" ? (
+                      <Image
+                        src="/brandvakt-logo.svg"
+                        alt="Brandvakt"
+                        width={160}
+                        height={40}
+                        className="opacity-90 group-hover:opacity-100 transition-opacity duration-300"
+                      />
+                    ) : (
+                      <h3 className="font-display text-2xl text-yd-off-white">
+                        {company.name}
+                      </h3>
+                    )}
                   </div>
                   <span className="eyebrow text-yd-gray-dark">{company.sector}</span>
                 </div>

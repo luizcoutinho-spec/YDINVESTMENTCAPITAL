@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useTranslations, useLocale } from "next-intl";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
@@ -74,9 +75,19 @@ export default function PortfolioSection() {
               className="grid grid-cols-1 md:grid-cols-12 gap-6 py-8 border-b border-yd-graphite-border group hover:bg-yd-graphite-light -mx-6 px-6 md:-mx-12 md:px-12 lg:-mx-20 lg:px-20 xl:-mx-28 xl:px-28 transition-colors duration-300 cursor-default"
             >
               <div className="md:col-span-3">
-                <p className="font-display text-lg text-yd-off-white mb-1">
-                  {company.name}
-                </p>
+                {company.name === "Brandvakt" ? (
+                  <Image
+                    src="/brandvakt-logo.svg"
+                    alt="Brandvakt"
+                    width={140}
+                    height={36}
+                    className="mb-2 opacity-90 group-hover:opacity-100 transition-opacity duration-300"
+                  />
+                ) : (
+                  <p className="font-display text-lg text-yd-off-white mb-1">
+                    {company.name}
+                  </p>
+                )}
                 <p className="text-[0.65rem] tracking-[0.1em] uppercase font-sans text-yd-gray-dark">
                   {company.sector}
                 </p>
