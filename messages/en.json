@@ -118,10 +118,10 @@
     "companies": [
       {
         "name": "Brandvakt",
-        "sector": "Brand Intelligence",
+        "sector": "Digital Trust & AI Governance",
         "region": "Global",
-        "description": "Digital brand intelligence platform providing strategic brand management and market positioning for growth-stage companies.",
-        "outcome": "Active portfolio company — scaling globally"
+        "description": "Digital trust and AI governance platform helping organizations navigate the intersection of artificial intelligence, compliance, and brand integrity.",
+        "outcome": "Active portfolio company — brandvakt.com"
       }
     ]
   },
@@ -410,12 +410,12 @@
     "companies": [
       {
         "name": "Brandvakt",
-        "sector": "Brand Intelligence",
+        "sector": "Digital Trust & AI Governance",
         "region": "Global",
         "year": "2024",
-        "description": "Digital brand intelligence platform providing strategic brand management, market positioning, and brand equity monitoring for growth-stage companies. YD provides strategic finance and growth architecture support.",
-        "outcome": "Active portfolio partnership — scaling globally",
-        "tags": ["Brand Intelligence", "Digital", "Global"]
+        "description": "Digital trust and AI governance platform helping organizations navigate the intersection of artificial intelligence, compliance, and brand integrity. YD provides strategic finance and growth architecture support.",
+        "outcome": "Active portfolio partnership — brandvakt.com",
+        "tags": ["Digital Trust", "AI Governance", "Global"]
       }
     ]
   },

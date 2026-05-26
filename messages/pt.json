@@ -118,10 +118,10 @@
     "companies": [
       {
         "name": "Brandvakt",
-        "sector": "Inteligência de Marca",
+        "sector": "Confiança Digital & Governança de IA",
         "region": "Global",
-        "description": "Plataforma de inteligência de marca digital que oferece gestão estratégica de marca e posicionamento de mercado para empresas em crescimento.",
-        "outcome": "Empresa ativa no portfólio — expansão global"
+        "description": "Plataforma de confiança digital e governança de IA que auxilia organizações a navegar na intersecção entre inteligência artificial, conformidade e integridade de marca.",
+        "outcome": "Empresa ativa no portfólio — brandvakt.com"
       }
     ]
   },
@@ -410,12 +410,12 @@
     "companies": [
       {
         "name": "Brandvakt",
-        "sector": "Inteligência de Marca",
+        "sector": "Confiança Digital & Governança de IA",
         "region": "Global",
         "year": "2024",
-        "description": "Plataforma de inteligência de marca digital que oferece gestão estratégica de marca, posicionamento de mercado e monitoramento de brand equity para empresas em crescimento. A YD fornece suporte de finanças estratégicas e arquitetura de crescimento.",
-        "outcome": "Parceria ativa no portfólio — expansão global",
-        "tags": ["Inteligência de Marca", "Digital", "Global"]
+        "description": "Plataforma de confiança digital e governança de IA que auxilia organizações a navegar na intersecção entre inteligência artificial, conformidade e integridade de marca. A YD fornece suporte de finanças estratégicas e arquitetura de crescimento.",
+        "outcome": "Parceria ativa no portfólio — brandvakt.com",
+        "tags": ["Confiança Digital", "Governança de IA", "Global"]
       }
     ]
   },
