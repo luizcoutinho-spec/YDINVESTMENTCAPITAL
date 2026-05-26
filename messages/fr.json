@@ -121,7 +121,8 @@
         "sector": "Cybersécurité & Gouvernance Numérique",
         "region": "Global",
         "description": "Brandvakt est une entreprise de cybersécurité et de gouvernance numérique spécialisée dans la résilience cybernétique, la protection des infrastructures critiques et la gestion des risques dans des environnements d'entreprise hautement réglementés.",
-        "outcome": "Société active en portefeuille — brandvakt.com"
+        "outcome": "Société active en portefeuille — brandvakt.com",
+        "website": "https://brandvakt.com"
       }
     ]
   },
@@ -415,6 +416,7 @@
         "year": "2024",
         "description": "Brandvakt est une entreprise de cybersécurité et de gouvernance numérique spécialisée dans la résilience cybernétique, la protection des infrastructures critiques et la gestion des risques dans des environnements d'entreprise hautement réglementés. YD fournit un soutien en finance stratégique et en architecture de croissance.",
         "outcome": "Partenariat actif en portefeuille — brandvakt.com",
+        "website": "https://brandvakt.com",
         "tags": ["Cybersécurité", "Infrastructures Critiques", "Global"]
       }
     ]

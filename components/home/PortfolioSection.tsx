@@ -12,6 +12,7 @@ interface Company {
   region: string;
   description: string;
   outcome: string;
+  website?: string;
 }
 
 export default function PortfolioSection() {
@@ -101,9 +102,20 @@ export default function PortfolioSection() {
                 </p>
               </div>
               <div className="md:col-span-3 md:text-right">
-                <p className="text-body-sm text-yd-metallic font-medium">
-                  {company.outcome}
-                </p>
+                {company.website ? (
+                  <a
+                    href={company.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-body-sm text-yd-metallic font-medium hover:text-yd-off-white transition-colors duration-200 underline underline-offset-4 decoration-yd-graphite-border hover:decoration-yd-metallic"
+                  >
+                    {company.outcome}
+                  </a>
+                ) : (
+                  <p className="text-body-sm text-yd-metallic font-medium">
+                    {company.outcome}
+                  </p>
+                )}
               </div>
             </motion.div>
           ))}

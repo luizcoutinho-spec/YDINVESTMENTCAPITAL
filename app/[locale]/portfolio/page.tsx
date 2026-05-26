@@ -28,6 +28,7 @@ export default async function PortfolioPage({
     year: string;
     description: string;
     outcome: string;
+    website?: string;
     tags: string[];
   };
 
@@ -88,9 +89,20 @@ export default async function PortfolioPage({
                     <p className="text-[0.6rem] tracking-[0.15em] uppercase font-sans text-yd-gray-dark mb-1">
                       Outcome
                     </p>
-                    <p className="text-body-sm text-yd-metallic font-medium">
-                      {company.outcome}
-                    </p>
+                    {company.website ? (
+                      <a
+                        href={company.website}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-body-sm text-yd-metallic font-medium hover:text-yd-off-white transition-colors duration-200 underline underline-offset-4 decoration-yd-graphite-border hover:decoration-yd-metallic"
+                      >
+                        {company.outcome}
+                      </a>
+                    ) : (
+                      <p className="text-body-sm text-yd-metallic font-medium">
+                        {company.outcome}
+                      </p>
+                    )}
                   </div>
                   <div className="flex flex-wrap gap-2">
                     {company.tags.map((tag, j) => (
