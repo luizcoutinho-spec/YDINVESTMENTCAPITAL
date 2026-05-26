@@ -117,32 +117,11 @@
     "cta": "View Full Portfolio",
     "companies": [
       {
-        "name": "TechCore Africa",
-        "sector": "Technology & SaaS",
-        "region": "West Africa",
-        "description": "Enterprise SaaS platform enabling digital transformation for mid-market African companies.",
-        "outcome": "3.2x revenue growth in 24 months post-engagement"
-      },
-      {
-        "name": "Meridian Health",
-        "sector": "Healthcare",
-        "region": "Brazil",
-        "description": "Integrated healthcare services company operating across multiple Brazilian states.",
-        "outcome": "Successfully structured Series B capital raise of R$45M"
-      },
-      {
-        "name": "Pacific Industrial",
-        "sector": "Industrial Operations",
-        "region": "South America",
-        "description": "Industrial manufacturing group optimizing operations across 4 production facilities.",
-        "outcome": "28% margin improvement through operational restructuring"
-      },
-      {
-        "name": "Vertex Commerce",
-        "sector": "E-commerce",
-        "region": "Latin America",
-        "description": "Multi-channel e-commerce platform with operations in 6 Latin American markets.",
-        "outcome": "Capital efficiency improved 40% through unit economics redesign"
+        "name": "Brandvakt",
+        "sector": "Brand Intelligence",
+        "region": "Global",
+        "description": "Digital brand intelligence platform providing strategic brand management and market positioning for growth-stage companies.",
+        "outcome": "Active portfolio company — scaling globally"
       }
     ]
   },
@@ -430,40 +409,13 @@
     "filterAll": "All",
     "companies": [
       {
-        "name": "TechCore Africa",
-        "sector": "Technology & SaaS",
-        "region": "West Africa",
-        "year": "2019",
-        "description": "Enterprise SaaS platform enabling digital transformation for mid-market African companies. YD provided growth capital alongside strategic finance architecture and market expansion advisory.",
-        "outcome": "3.2x revenue growth in 24 months",
-        "tags": ["SaaS", "Africa", "Growth Capital"]
-      },
-      {
-        "name": "Meridian Health",
-        "sector": "Healthcare",
-        "region": "Brazil",
-        "year": "2020",
-        "description": "Integrated healthcare services company operating across multiple Brazilian states. YD led financial restructuring and supported Series B capital raise.",
-        "outcome": "Series B of R$45M successfully closed",
-        "tags": ["Healthcare", "Brazil", "Capital Raise"]
-      },
-      {
-        "name": "Pacific Industrial",
-        "sector": "Industrial Operations",
-        "region": "South America",
-        "year": "2018",
-        "description": "Industrial manufacturing group with 4 production facilities. YD redesigned the cost architecture and implemented operational finance systems.",
-        "outcome": "28% EBITDA margin improvement",
-        "tags": ["Industrial", "South America", "Operations"]
-      },
-      {
-        "name": "Vertex Commerce",
-        "sector": "E-commerce",
-        "region": "Latin America",
-        "year": "2021",
-        "description": "Multi-channel e-commerce platform operating across 6 Latin American markets. YD rebuilt unit economics framework and cash flow management systems.",
-        "outcome": "40% capital efficiency improvement",
-        "tags": ["E-commerce", "LatAm", "Unit Economics"]
+        "name": "Brandvakt",
+        "sector": "Brand Intelligence",
+        "region": "Global",
+        "year": "2024",
+        "description": "Digital brand intelligence platform providing strategic brand management, market positioning, and brand equity monitoring for growth-stage companies. YD provides strategic finance and growth architecture support.",
+        "outcome": "Active portfolio partnership — scaling globally",
+        "tags": ["Brand Intelligence", "Digital", "Global"]
       }
     ]
   },

@@ -117,32 +117,11 @@
     "cta": "Ver Portfólio Completo",
     "companies": [
       {
-        "name": "TechCore Africa",
-        "sector": "Tecnologia & SaaS",
-        "region": "África Ocidental",
-        "description": "Plataforma SaaS empresarial que viabiliza a transformação digital para empresas africanas do mid-market.",
-        "outcome": "Crescimento de receita de 3,2x em 24 meses"
-      },
-      {
-        "name": "Meridian Health",
-        "sector": "Saúde",
-        "region": "Brasil",
-        "description": "Empresa de serviços de saúde integrados com operações em múltiplos estados brasileiros.",
-        "outcome": "Captação de Série B de R$45M estruturada com sucesso"
-      },
-      {
-        "name": "Pacific Industrial",
-        "sector": "Operações Industriais",
-        "region": "América do Sul",
-        "description": "Grupo de manufatura industrial com operações em 4 instalações produtivas.",
-        "outcome": "Melhoria de 28% na margem através de reestruturação operacional"
-      },
-      {
-        "name": "Vertex Commerce",
-        "sector": "E-commerce",
-        "region": "América Latina",
-        "description": "Plataforma de e-commerce multicanal com operações em 6 mercados latino-americanos.",
-        "outcome": "Eficiência de capital melhorada em 40% através do redesenho da economia unitária"
+        "name": "Brandvakt",
+        "sector": "Inteligência de Marca",
+        "region": "Global",
+        "description": "Plataforma de inteligência de marca digital que oferece gestão estratégica de marca e posicionamento de mercado para empresas em crescimento.",
+        "outcome": "Empresa ativa no portfólio — expansão global"
       }
     ]
   },
@@ -430,40 +409,13 @@
     "filterAll": "Todos",
     "companies": [
       {
-        "name": "TechCore Africa",
-        "sector": "Tecnologia & SaaS",
-        "region": "África Ocidental",
-        "year": "2019",
-        "description": "Plataforma SaaS empresarial que viabiliza a transformação digital para empresas africanas do mid-market. A YD forneceu capital de crescimento ao lado de arquitetura de finanças estratégicas e assessoria de expansão de mercado.",
-        "outcome": "Crescimento de receita de 3,2x em 24 meses",
-        "tags": ["SaaS", "África", "Capital de Crescimento"]
-      },
-      {
-        "name": "Meridian Health",
-        "sector": "Saúde",
-        "region": "Brasil",
-        "year": "2020",
-        "description": "Empresa de serviços de saúde integrados com operações em múltiplos estados brasileiros. A YD liderou a reestruturação financeira e apoiou a captação de Série B.",
-        "outcome": "Série B de R$45M fechada com sucesso",
-        "tags": ["Saúde", "Brasil", "Captação de Capital"]
-      },
-      {
-        "name": "Pacific Industrial",
-        "sector": "Operações Industriais",
-        "region": "América do Sul",
-        "year": "2018",
-        "description": "Grupo de manufatura industrial com 4 instalações produtivas. A YD redesenhou a arquitetura de custos e implementou sistemas de finanças operacionais.",
-        "outcome": "Melhoria de 28% na margem de EBITDA",
-        "tags": ["Industrial", "América do Sul", "Operações"]
-      },
-      {
-        "name": "Vertex Commerce",
-        "sector": "E-commerce",
-        "region": "América Latina",
-        "year": "2021",
-        "description": "Plataforma de e-commerce multicanal com operações em 6 mercados latino-americanos. A YD reconstruiu o framework de economia unitária e sistemas de gestão de fluxo de caixa.",
-        "outcome": "Melhoria de 40% na eficiência de capital",
-        "tags": ["E-commerce", "LatAm", "Economia Unitária"]
+        "name": "Brandvakt",
+        "sector": "Inteligência de Marca",
+        "region": "Global",
+        "year": "2024",
+        "description": "Plataforma de inteligência de marca digital que oferece gestão estratégica de marca, posicionamento de mercado e monitoramento de brand equity para empresas em crescimento. A YD fornece suporte de finanças estratégicas e arquitetura de crescimento.",
+        "outcome": "Parceria ativa no portfólio — expansão global",
+        "tags": ["Inteligência de Marca", "Digital", "Global"]
       }
     ]
   },
