@@ -82,7 +82,7 @@ export default function Navigation() {
             </Link>
 
             {/* Desktop Nav */}
-            <nav className="hidden lg:flex items-center gap-8">
+            <nav className="hidden xl:flex items-center gap-5">
               {navLinks.map((link) => {
                 const isActive = pathname.startsWith(link.href);
                 return (
@@ -90,7 +90,7 @@ export default function Navigation() {
                     key={link.href}
                     href={link.href}
                     className={clsx(
-                      "text-[0.7rem] tracking-[0.1em] uppercase font-sans font-medium transition-colors duration-200 link-underline",
+                      "text-[0.65rem] tracking-[0.1em] uppercase font-sans font-medium transition-colors duration-200 link-underline whitespace-nowrap",
                       isActive
                         ? "text-yd-off-white"
                         : "text-yd-gray-soft hover:text-yd-off-white"
@@ -103,7 +103,7 @@ export default function Navigation() {
             </nav>
 
             {/* Right: Language + CTA */}
-            <div className="hidden lg:flex items-center gap-6">
+            <div className="hidden xl:flex items-center gap-6">
               <div className="flex items-center gap-3">
                 {locales.map((loc) => (
                   <Link
@@ -131,7 +131,7 @@ export default function Navigation() {
             {/* Mobile menu button */}
             <button
               onClick={() => setMenuOpen(!menuOpen)}
-              className="lg:hidden flex flex-col gap-1.5 p-2"
+              className="xl:hidden flex flex-col gap-1.5 p-2"
               aria-label="Toggle menu"
             >
               <motion.span
