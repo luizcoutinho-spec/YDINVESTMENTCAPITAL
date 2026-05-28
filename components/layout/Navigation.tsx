@@ -67,22 +67,28 @@ export default function Navigation() {
             : "bg-transparent"
         )}
       >
-        <div className="container-wide section-padding">
-          <div className="flex items-center justify-between h-18 md:h-20">
+        <div className="max-w-[1600px] mx-auto px-6 md:px-10 xl:px-16">
+          <div className="grid grid-cols-[auto_1fr_auto] items-center h-18 md:h-20 gap-x-8 xl:gap-x-12">
+
             {/* Logo */}
             <Link
               href={`/${locale}`}
-              className="flex items-center group"
+              className="flex items-center gap-3 group shrink-0"
             >
-              <span className="font-sans text-[1.05rem] tracking-[-0.01em] text-yd-off-white leading-none whitespace-nowrap">
-                <span className="font-bold">YD</span>
-                <span className="font-light text-yd-gray-soft mx-2">|</span>
-                <span className="font-light">Investment Capital</span>
+              {/* YD Badge */}
+              <span className="flex items-center justify-center w-9 h-9 border border-yd-off-white/20 group-hover:border-yd-off-white/50 transition-colors duration-300">
+                <span className="font-sans font-bold text-[0.95rem] tracking-[-0.02em] text-yd-off-white leading-none">
+                  YD
+                </span>
+              </span>
+              {/* Brand name — hidden at intermediate widths to save space */}
+              <span className="hidden 2xl:block font-sans text-[0.75rem] tracking-[0.06em] uppercase text-yd-gray-soft group-hover:text-yd-off-white transition-colors duration-200 whitespace-nowrap">
+                Investment Capital
               </span>
             </Link>
 
-            {/* Desktop Nav */}
-            <nav className="hidden xl:flex items-center gap-5">
+            {/* Desktop Nav — centered */}
+            <nav className="hidden xl:flex items-center justify-center gap-6">
               {navLinks.map((link) => {
                 const isActive = pathname.startsWith(link.href);
                 return (
@@ -90,7 +96,7 @@ export default function Navigation() {
                     key={link.href}
                     href={link.href}
                     className={clsx(
-                      "text-[0.65rem] tracking-[0.1em] uppercase font-sans font-medium transition-colors duration-200 link-underline whitespace-nowrap",
+                      "text-[0.6rem] tracking-[0.1em] uppercase font-sans font-medium transition-colors duration-200 link-underline whitespace-nowrap",
                       isActive
                         ? "text-yd-off-white"
                         : "text-yd-gray-soft hover:text-yd-off-white"
@@ -103,14 +109,14 @@ export default function Navigation() {
             </nav>
 
             {/* Right: Language + CTA */}
-            <div className="hidden xl:flex items-center gap-6">
-              <div className="flex items-center gap-3">
+            <div className="hidden xl:flex items-center gap-5 shrink-0">
+              <div className="flex items-center gap-2.5">
                 {locales.map((loc) => (
                   <Link
                     key={loc.code}
                     href={getLocalePath(loc.code)}
                     className={clsx(
-                      "text-[0.65rem] tracking-[0.12em] font-sans font-medium transition-colors duration-200",
+                      "text-[0.6rem] tracking-[0.12em] font-sans font-medium transition-colors duration-200",
                       locale === loc.code
                         ? "text-yd-off-white"
                         : "text-yd-gray-mid hover:text-yd-gray-muted"
@@ -122,7 +128,7 @@ export default function Navigation() {
               </div>
               <Link
                 href={`/${locale}/contact`}
-                className="text-[0.65rem] tracking-[0.12em] uppercase font-sans font-medium text-yd-black bg-yd-off-white px-5 py-2.5 hover:bg-yd-cream transition-colors duration-200"
+                className="text-[0.6rem] tracking-[0.12em] uppercase font-sans font-medium text-yd-black bg-yd-off-white px-4 py-2.5 hover:bg-yd-cream transition-colors duration-200 whitespace-nowrap"
               >
                 {t("scheduleAssessment")}
               </Link>
@@ -131,7 +137,7 @@ export default function Navigation() {
             {/* Mobile menu button */}
             <button
               onClick={() => setMenuOpen(!menuOpen)}
-              className="xl:hidden flex flex-col gap-1.5 p-2"
+              className="xl:hidden flex flex-col gap-1.5 p-2 col-start-3"
               aria-label="Toggle menu"
             >
               <motion.span
