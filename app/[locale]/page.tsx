@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { getTranslations, getLocale } from "next-intl/server";
+import { getTranslations } from "next-intl/server";
 import Hero from "@/components/home/Hero";
 import PositioningBar from "@/components/home/PositioningBar";
 import StrategicFinanceSection from "@/components/home/StrategicFinanceSection";
@@ -23,12 +23,11 @@ export async function generateMetadata({
   };
 }
 
-export default async function HomePage() {
-  const locale = await getLocale();
+export default function HomePage() {
   return (
     <>
       <Hero />
-      {locale !== "fr" && <PositioningBar />}
+      <PositioningBar />
       <StrategicFinanceSection />
       <WhyYD />
       <FounderIntelligence />
