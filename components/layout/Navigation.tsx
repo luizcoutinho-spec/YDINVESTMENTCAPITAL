@@ -73,17 +73,12 @@ export default function Navigation() {
             {/* Logo */}
             <Link
               href={`/${locale}`}
-              className="flex items-center gap-3 group shrink-0"
+              className="flex items-center group shrink-0"
             >
-              {/* YD Badge */}
-              <span className="flex items-center justify-center w-9 h-9 border border-yd-off-white/20 group-hover:border-yd-off-white/50 transition-colors duration-300">
-                <span className="font-sans font-bold text-[0.95rem] tracking-[-0.02em] text-yd-off-white leading-none">
-                  YD
-                </span>
-              </span>
-              {/* Brand name — hidden at intermediate widths to save space */}
-              <span className="hidden 2xl:block font-sans text-[0.75rem] tracking-[0.06em] uppercase text-yd-gray-soft group-hover:text-yd-off-white transition-colors duration-200 whitespace-nowrap">
-                Investment Capital
+              <span className="font-sans text-[1.05rem] tracking-[-0.01em] text-yd-off-white leading-none whitespace-nowrap">
+                <span className="font-bold">YD</span>
+                <span className="font-light text-yd-gray-soft mx-2">|</span>
+                <span className="font-light">Investment Capital</span>
               </span>
             </Link>
 
