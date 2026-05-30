@@ -68,14 +68,14 @@ export default function Navigation() {
         )}
       >
         <div className="max-w-[1600px] mx-auto px-6 md:px-10 xl:px-16">
-          <div className="grid grid-cols-[auto_1fr_auto] items-center h-18 md:h-20 gap-x-8 xl:gap-x-12">
+          <div className="grid grid-cols-[auto_1fr_auto] items-center h-20 md:h-24 gap-x-8 xl:gap-x-12">
 
             {/* Logo */}
             <Link
               href={`/${locale}`}
               className="flex items-center group shrink-0"
             >
-              <span className="font-sans text-[1.05rem] tracking-[-0.01em] text-yd-off-white leading-none whitespace-nowrap">
+              <span className="font-sans text-[1.15rem] tracking-[-0.01em] text-yd-off-white leading-none whitespace-nowrap">
                 <span className="font-bold">YD</span>
                 <span className="font-light text-yd-gray-soft mx-2">|</span>
                 <span className="font-light">Investment Capital</span>
@@ -83,7 +83,7 @@ export default function Navigation() {
             </Link>
 
             {/* Desktop Nav — centered */}
-            <nav className="hidden xl:flex items-center justify-center gap-6">
+            <nav className="hidden xl:flex items-center justify-center gap-7">
               {navLinks.map((link) => {
                 const isActive = pathname.startsWith(link.href);
                 return (
@@ -91,7 +91,7 @@ export default function Navigation() {
                     key={link.href}
                     href={link.href}
                     className={clsx(
-                      "text-[0.6rem] tracking-[0.1em] uppercase font-sans font-medium transition-colors duration-200 link-underline whitespace-nowrap",
+                      "text-[0.65rem] tracking-[0.1em] uppercase font-sans font-medium transition-colors duration-200 link-underline whitespace-nowrap",
                       isActive
                         ? "text-yd-off-white"
                         : "text-yd-gray-soft hover:text-yd-off-white"
@@ -105,13 +105,13 @@ export default function Navigation() {
 
             {/* Right: Language + CTA */}
             <div className="hidden xl:flex items-center gap-5 shrink-0">
-              <div className="flex items-center gap-2.5">
+              <div className="flex items-center gap-3">
                 {locales.map((loc) => (
                   <Link
                     key={loc.code}
                     href={getLocalePath(loc.code)}
                     className={clsx(
-                      "text-[0.6rem] tracking-[0.12em] font-sans font-medium transition-colors duration-200",
+                      "text-[0.65rem] tracking-[0.12em] font-sans font-medium transition-colors duration-200",
                       locale === loc.code
                         ? "text-yd-off-white"
                         : "text-yd-gray-mid hover:text-yd-gray-muted"
@@ -123,7 +123,7 @@ export default function Navigation() {
               </div>
               <Link
                 href={`/${locale}/contact`}
-                className="text-[0.6rem] tracking-[0.12em] uppercase font-sans font-medium text-yd-black bg-yd-off-white px-4 py-2.5 hover:bg-yd-cream transition-colors duration-200 whitespace-nowrap"
+                className="text-[0.65rem] tracking-[0.12em] uppercase font-sans font-medium text-yd-black bg-yd-off-white px-5 py-3 hover:bg-yd-cream transition-colors duration-200 whitespace-nowrap"
               >
                 {t("scheduleAssessment")}
               </Link>
