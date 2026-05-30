@@ -91,7 +91,7 @@ export default function Navigation() {
                     key={link.href}
                     href={link.href}
                     className={clsx(
-                      "text-[0.65rem] tracking-[0.1em] uppercase font-sans font-medium transition-colors duration-200 link-underline whitespace-nowrap",
+                      "text-[0.8rem] tracking-[0.08em] uppercase font-sans font-medium transition-colors duration-200 link-underline whitespace-nowrap",
                       isActive
                         ? "text-yd-off-white"
                         : "text-yd-gray-soft hover:text-yd-off-white"
